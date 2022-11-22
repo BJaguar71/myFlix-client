@@ -11,14 +11,21 @@ import { Menubar } from '../menubar/menubar';
 import { RegistrationView } from '../registration-view/registration-view';
 // importing LoginView component
 import { LoginView } from '../login-view/login-view';
-// importing MovieCard component
-import { MovieCard } from '../movie-card/movie-card';
 // importing MovieView component
 import { MovieView } from '../movie-view/movie-view';
 import { DirectorView } from '../director-view/director-view';
 import { ProfileView } from '../profile-view/profile-view';
 import { UserUpdate } from '../profile-view/user-update';
 import { GenreView } from '../genre-view/genre-view';
+
+// connect func help us to connect any component within the application to the store
+import { connect } from 'react-redux';
+
+// importing relevant action, here is setMovies and will be used in render() to connect to MainView using connect()
+import { getMovies } from '../../actions/actions';
+
+import MoviesList from '../movies-list/movies-list';
+
 
 // Making and exposing the MainView component in order to be usable in other files using the React.Component template
 export class MainView extends React.Component {
@@ -74,14 +81,13 @@ export class MainView extends React.Component {
   }
   // Rendering the visual representation of the component
   render() {
-    const { movies, user } = this.state;
+    const { movies } = this.props;
+    const { user } = this.state;
 
     return (
       <Router>
         {/* placed Menubar */}
         <Menubar user={user} />
-        {/* Username will appear on main view after successful login
-        <Link to={`/users/${user}`}>{user}</Link> */}
         <Container>
           <Row className="main-view justify-content-md-center">
             {/* Routing starts from here */}
@@ -102,12 +108,8 @@ export class MainView extends React.Component {
                   );
                 // before the movies have been loaded
                 if (movies.length === 0) return <div className="main-view" />;
-
-                return movies.map((m) => (
-                  <Col md={3} key={m._id}>
-                    <MovieCard movie={m} />
-                  </Col>
-                ));
+                // MoviesList receives the movies from the store in stages
+              return <MoviesList movies={movies} />;
               }}
             />
             {/* creatinhg route for Menubar view */}
@@ -220,3 +222,12 @@ export class MainView extends React.Component {
     );
   }
 }
+// any time the store is updated, this func mapStateToPtops will be called.
+// mapStateToProps gets the state from the store and passes it as props to the component that is connected to the store. instead  of the component accessing the state directly, it accesses the sate as props, passed to it by the store
+let mapStateToProps = state => {
+  // movies is going to be the prop and whatever is in the stat.movies is passed to the prop
+  return { movies: state.movies }
+}
+
+export default connect(mapStateToProps, { getMovies })(MainView);
+//
