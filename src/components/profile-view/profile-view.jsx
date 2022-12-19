@@ -7,14 +7,14 @@ import { UserUpdate } from "./user-update";
 
 export function ProfileView(props) {
   const { movies } = props;
-  const [user, setUser] = useState(props.user);
+  const [user, setUser] = useState('');
   const [favoriteMovies, setFavoriteMovies] = useState([]);
-  const currentUser = localStorage.getItem('user');
+  const currentUser = props.user;
   const token = localStorage.getItem('token');
 
   const getUser = () => {
     axios
-      .get(`https://t-flix.fly.dev/users/${currentUser}`, {
+      .get(`https://t-flix.fly.dev/users/${currentUser.name}`, {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((response) => {
@@ -32,7 +32,7 @@ export function ProfileView(props) {
 
   const handleDelete = () => {
     axios
-      .delete(`https://t-flix.fly.dev/users/${currentUser}`, {
+      .delete(`https://t-flix.fly.dev/users/${currentUser.name}`, {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((response) => {
@@ -73,8 +73,9 @@ export function ProfileView(props) {
         <FavoriteMovies
           movies={movies}
           favoriteMovies={favoriteMovies}
-          currentUser={currentUser}
+          currentUser={user.name}
           token={token}
+          removeMovie={props.removeFavorites}
         />
       </Row>
       <UserUpdate user={user} />
