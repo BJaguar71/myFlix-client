@@ -1,0 +1,60 @@
+/*
+collor palette
+movie-card-ground: #68cefa6e; 
+app-background: white;
+button-background: #f5a9b86e; 
+*/
+$app-background: white;
+$button: #f5a9b86e; 
+$movie-card-background: #68cefa6e;
+
+
+.movie-button {
+  color: $button;
+}
+
+
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .col-md-3 {
+    grid: 1fr 1fr 1fr;
+    width: auto;
+    margin: 10px;
+  }
+  div.card-title.h5 {
+    font-size: small;
+  }
+  p.card-text {
+    font-size: small;
+  }
+  div.card-body {
+    height: 150px;
+  }
+}
+
+
+
+div.card-title.h5 {
+  font-size: small;
+}
+p.card-text {
+  font-size: small;
+}
+button.movie-button.btn.btn-link {
+  font-size: small;
+}
+
+@media all and (min-width: 769px) {
+  div.card-title.h5 {
+    font-size: small;
+  }
+  p.card-text {
+    font-size: small;
+  }
+  div.card-body {
+    height: 180px;
+  }
+  .card {
+    margin: 4px;
+  }
+}
