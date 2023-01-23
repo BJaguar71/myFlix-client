@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("d712ba4298ebb2f5");
-var ErrorOverlay = require("6b70e430f680ed17");
+var Refresh = require("bb3212dc300eaf77");
+var ErrorOverlay = require("6d00c0698b75bc6d");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"d712ba4298ebb2f5":"786KC","6b70e430f680ed17":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"bb3212dc300eaf77":"786KC","6d00c0698b75bc6d":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("7a3d9141d6e2268b");
+module.exports = require("be90d3f7e22a5c80");
 
-},{"7a3d9141d6e2268b":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"be90d3f7e22a5c80":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("7a3d9141d6e2268b");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("f3a6bbb3070c2038");
+var process = require("64679850d2e448e");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("f3a6bbb3070c2038");
     ]);
 });
 
-},{"f3a6bbb3070c2038":"jhUEF"}],"jhUEF":[function(require,module,exports) {
+},{"64679850d2e448e":"jhUEF"}],"jhUEF":[function(require,module,exports) {
 "use strict";
 
 },{}],"7a1Sg":[function(require,module,exports) {
@@ -2823,9 +2823,9 @@ const container = document.getElementsByClassName("app-container")[0];
 }
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","react-bootstrap/Container":"hEdsw","./components/main-view/main-view":"4gflv","./index.scss":"lJZlQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
-module.exports = require("620d7fc3d7908c94");
+module.exports = require("ba3e32a295d0f4d3");
 
-},{"620d7fc3d7908c94":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"ba3e32a295d0f4d3":"48uCM"}],"48uCM":[function(require,module,exports) {
 /** @license React v17.0.2
  * react-jsx-dev-runtime.development.js
  *
@@ -2836,8 +2836,8 @@ module.exports = require("620d7fc3d7908c94");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("495830549d735f9f");
-    var _assign = require("3d696ac0a74eef10");
+    var React = require("c75254d7c546d0f2");
+    var _assign = require("757069fd15c4724f");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -3604,11 +3604,11 @@ module.exports = require("620d7fc3d7908c94");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"495830549d735f9f":"21dqq","3d696ac0a74eef10":"7OXxh"}],"21dqq":[function(require,module,exports) {
+},{"c75254d7c546d0f2":"21dqq","757069fd15c4724f":"7OXxh"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("feed61a7608abbe7");
+module.exports = require("ffa7f1e8c655130c");
 
-},{"feed61a7608abbe7":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"ffa7f1e8c655130c":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /** @license React v17.0.2
  * react.development.js
  *
@@ -3619,7 +3619,7 @@ module.exports = require("feed61a7608abbe7");
  */ "use strict";
 (function() {
     "use strict";
-    var _assign = require("fef82ecbb658a39e");
+    var _assign = require("95e2236cbf1ecf56");
     // TODO: this is special because it gets imported during build.
     var ReactVersion = "17.0.2";
     // ATTENTION
@@ -5187,7 +5187,7 @@ module.exports = require("feed61a7608abbe7");
     exports.version = ReactVersion;
 })();
 
-},{"fef82ecbb658a39e":"7OXxh"}],"7OXxh":[function(require,module,exports) {
+},{"95e2236cbf1ecf56":"7OXxh"}],"7OXxh":[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -5256,9 +5256,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("5bfdf51f4bf0b60a");
+module.exports = require("c6a33eb52cda2b95");
 
-},{"5bfdf51f4bf0b60a":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"c6a33eb52cda2b95":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /** @license React v17.0.2
  * react-dom.development.js
  *
@@ -5269,10 +5269,10 @@ module.exports = require("5bfdf51f4bf0b60a");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("a5673c56ec5145c9");
-    var _assign = require("3a07c38d6b25236f");
-    var Scheduler = require("63bedc0d57f717e8");
-    var tracing = require("981621ffb81e6360");
+    var React = require("86d637d10b6dd657");
+    var _assign = require("58fd7b21211698d1");
+    var Scheduler = require("fa15e1c0d90c8ff1");
+    var tracing = require("689f72b586029c57");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     // by calls to these methods by a Babel plugin.
     //
@@ -23723,11 +23723,11 @@ module.exports = require("5bfdf51f4bf0b60a");
     exports.version = ReactVersion;
 })();
 
-},{"a5673c56ec5145c9":"21dqq","3a07c38d6b25236f":"7OXxh","63bedc0d57f717e8":"juvHo","981621ffb81e6360":"9ZY7A"}],"juvHo":[function(require,module,exports) {
+},{"86d637d10b6dd657":"21dqq","58fd7b21211698d1":"7OXxh","fa15e1c0d90c8ff1":"juvHo","689f72b586029c57":"9ZY7A"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("22c3bfee99f10466");
+module.exports = require("27edef4f8ef6019f");
 
-},{"22c3bfee99f10466":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"27edef4f8ef6019f":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /** @license React v0.20.2
  * scheduler.development.js
  *
@@ -24200,9 +24200,9 @@ module.exports = require("22c3bfee99f10466");
 
 },{}],"9ZY7A":[function(require,module,exports) {
 "use strict";
-module.exports = require("d5c866d5990c972f");
+module.exports = require("91dd6ec4e776950f");
 
-},{"d5c866d5990c972f":"dClkR"}],"dClkR":[function(require,module,exports) {
+},{"91dd6ec4e776950f":"dClkR"}],"dClkR":[function(require,module,exports) {
 /** @license React v0.20.2
  * scheduler-tracing.development.js
  *
@@ -24588,8 +24588,7 @@ function createBootstrapComponent(Component, opts) {
     if (typeof opts === "string") opts = {
         prefix: opts
     };
-    const isClassy = Component.prototype && Component.prototype.isReactComponent;
-    // If it's a functional component make sure we don't break it with a ref
+    const isClassy = Component.prototype && Component.prototype.isReactComponent; // If it's a functional component make sure we don't break it with a ref
     const { prefix , forwardRefAs =isClassy ? "ref" : "innerRef"  } = opts;
     const Wrapped = /*#__PURE__*/ _react.forwardRef(({ ...props }, ref)=>{
         props[forwardRefAs] = ref;
@@ -24606,9 +24605,9 @@ exports.default = ThemeProvider;
 
 },{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6AEwr":[function(require,module,exports) {
 "use strict";
-module.exports = require("2250898f61716f7a");
+module.exports = require("62408e531fa16c65");
 
-},{"2250898f61716f7a":"kujY4"}],"kujY4":[function(require,module,exports) {
+},{"62408e531fa16c65":"kujY4"}],"kujY4":[function(require,module,exports) {
 /** @license React v17.0.2
  * react-jsx-runtime.development.js
  *
@@ -24619,8 +24618,8 @@ module.exports = require("2250898f61716f7a");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("a1ddc2e0f3e2d3a3");
-    var _assign = require("f0d061d64f9f6124");
+    var React = require("b817dd3dff257606");
+    var _assign = require("1603d2773a2764c1");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -25399,7 +25398,7 @@ module.exports = require("2250898f61716f7a");
     exports.jsxs = jsxs;
 })();
 
-},{"a1ddc2e0f3e2d3a3":"21dqq","f0d061d64f9f6124":"7OXxh"}],"gkKU3":[function(require,module,exports) {
+},{"b817dd3dff257606":"21dqq","1603d2773a2764c1":"7OXxh"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -25720,28 +25719,9 @@ class MainView extends (0, _reactDefault.default).Component {
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","react-bootstrap":"3AD9A","react-router-dom":"cHIiW","./main-view.scss":"eBaMl","../menubar/menubar":"lIU5g","../registration-view/registration-view":"3U8r7","../login-view/login-view":"9YtA0","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","../director-view/director-view":"9tpci","../profile-view/profile-view":"2vVqf","../profile-view/user-update":"hucfh","../genre-view/genre-view":"4tuA0","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jo6P5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>(0, _axiosJsDefault.default));
-parcelHelpers.export(exports, "Axios", ()=>Axios);
-parcelHelpers.export(exports, "AxiosError", ()=>AxiosError);
-parcelHelpers.export(exports, "CanceledError", ()=>CanceledError);
-parcelHelpers.export(exports, "isCancel", ()=>isCancel);
-parcelHelpers.export(exports, "CancelToken", ()=>CancelToken);
-parcelHelpers.export(exports, "VERSION", ()=>VERSION);
-parcelHelpers.export(exports, "all", ()=>all);
-parcelHelpers.export(exports, "Cancel", ()=>Cancel);
-parcelHelpers.export(exports, "isAxiosError", ()=>isAxiosError);
-parcelHelpers.export(exports, "spread", ()=>spread);
-parcelHelpers.export(exports, "toFormData", ()=>toFormData);
-parcelHelpers.export(exports, "AxiosHeaders", ()=>AxiosHeaders);
-parcelHelpers.export(exports, "HttpStatusCode", ()=>HttpStatusCode);
-parcelHelpers.export(exports, "formToJSON", ()=>formToJSON);
-parcelHelpers.export(exports, "mergeConfig", ()=>mergeConfig);
 var _axiosJs = require("./lib/axios.js");
 var _axiosJsDefault = parcelHelpers.interopDefault(_axiosJs);
-// This module is intended to unwrap Axios default export as named.
-// Keep top-level export same with static properties
-// so that it can keep same with es module or cjs
-const { Axios , AxiosError , CanceledError , isCancel , CancelToken , VERSION , all , Cancel , isAxiosError , spread , toFormData , AxiosHeaders , HttpStatusCode , formToJSON , mergeConfig  } = (0, _axiosJsDefault.default);
+exports.default = (0, _axiosJsDefault.default);
 
 },{"./lib/axios.js":"63MyY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"63MyY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -25773,10 +25753,6 @@ var _spreadJs = require("./helpers/spread.js");
 var _spreadJsDefault = parcelHelpers.interopDefault(_spreadJs);
 var _isAxiosErrorJs = require("./helpers/isAxiosError.js");
 var _isAxiosErrorJsDefault = parcelHelpers.interopDefault(_isAxiosErrorJs);
-var _axiosHeadersJs = require("./core/AxiosHeaders.js");
-var _axiosHeadersJsDefault = parcelHelpers.interopDefault(_axiosHeadersJs);
-var _httpStatusCodeJs = require("./helpers/HttpStatusCode.js");
-var _httpStatusCodeJsDefault = parcelHelpers.interopDefault(_httpStatusCodeJs);
 "use strict";
 /**
  * Create an instance of Axios
@@ -25822,21 +25798,16 @@ axios.all = function all(promises) {
 axios.spread = (0, _spreadJsDefault.default);
 // Expose isAxiosError
 axios.isAxiosError = (0, _isAxiosErrorJsDefault.default);
-// Expose mergeConfig
-axios.mergeConfig = (0, _mergeConfigJsDefault.default);
-axios.AxiosHeaders = (0, _axiosHeadersJsDefault.default);
-axios.formToJSON = (thing)=>(0, _formDataToJSONJsDefault.default)((0, _utilsJsDefault.default).isHTMLForm(thing) ? new FormData(thing) : thing);
-axios.HttpStatusCode = (0, _httpStatusCodeJsDefault.default);
-axios.default = axios;
-// this module should only have a default export
+axios.formToJSON = (thing)=>{
+    return (0, _formDataToJSONJsDefault.default)((0, _utilsJsDefault.default).isHTMLForm(thing) ? new FormData(thing) : thing);
+};
 exports.default = axios;
 
-},{"./utils.js":"5By4s","./helpers/bind.js":"haRQb","./core/Axios.js":"cpqD8","./core/mergeConfig.js":"b85oP","./defaults/index.js":"hXfHM","./helpers/formDataToJSON.js":"01RfH","./cancel/CanceledError.js":"9PwCG","./cancel/CancelToken.js":"45wzn","./cancel/isCancel.js":"a0VmF","./env/data.js":"h29L9","./helpers/toFormData.js":"ajoez","./core/AxiosError.js":"3u8Tl","./helpers/spread.js":"dyQ8N","./helpers/isAxiosError.js":"eyiLq","./core/AxiosHeaders.js":"cgSSx","./helpers/HttpStatusCode.js":"fdR61","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5By4s":[function(require,module,exports) {
+},{"./utils.js":"5By4s","./helpers/bind.js":"haRQb","./core/Axios.js":"cpqD8","./core/mergeConfig.js":"b85oP","./defaults/index.js":"hXfHM","./helpers/formDataToJSON.js":"01RfH","./cancel/CanceledError.js":"9PwCG","./cancel/CancelToken.js":"45wzn","./cancel/isCancel.js":"a0VmF","./env/data.js":"h29L9","./helpers/toFormData.js":"ajoez","./core/AxiosError.js":"3u8Tl","./helpers/spread.js":"dyQ8N","./helpers/isAxiosError.js":"eyiLq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5By4s":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _bindJs = require("./helpers/bind.js");
 var _bindJsDefault = parcelHelpers.interopDefault(_bindJs);
-var global = arguments[3];
 "use strict";
 // utils is a library of generic helper functions non-specific to axios
 const { toString  } = Object.prototype;
@@ -26008,7 +25979,7 @@ const typeOfTest = (type)=>(thing)=>typeof thing === type;
  * @param {Function} fn The callback to invoke for each item
  *
  * @param {Boolean} [allOwnKeys = false]
- * @returns {any}
+ * @returns {void}
  */ function forEach(obj, fn, { allOwnKeys =false  } = {}) {
     // Don't bother if no value provided
     if (obj === null || typeof obj === "undefined") return;
@@ -26031,22 +26002,6 @@ const typeOfTest = (type)=>(thing)=>typeof thing === type;
         }
     }
 }
-function findKey(obj, key) {
-    key = key.toLowerCase();
-    const keys = Object.keys(obj);
-    let i = keys.length;
-    let _key;
-    while(i-- > 0){
-        _key = keys[i];
-        if (key === _key.toLowerCase()) return _key;
-    }
-    return null;
-}
-const _global = (()=>{
-    /*eslint no-undef:0*/ if (typeof globalThis !== "undefined") return globalThis;
-    return typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : global;
-})();
-const isContextDefined = (context)=>!isUndefined(context) && context !== _global;
 /**
  * Accepts varargs expecting each argument to be an object, then
  * immutably merges the properties of each object and returns result.
@@ -26065,14 +26020,12 @@ const isContextDefined = (context)=>!isUndefined(context) && context !== _global
  *
  * @returns {Object} Result of all merge properties
  */ function merge() {
-    const { caseless  } = isContextDefined(this) && this || {};
     const result = {};
     const assignValue = (val, key)=>{
-        const targetKey = caseless && findKey(result, key) || key;
-        if (isPlainObject(result[targetKey]) && isPlainObject(val)) result[targetKey] = merge(result[targetKey], val);
-        else if (isPlainObject(val)) result[targetKey] = merge({}, val);
-        else if (isArray(val)) result[targetKey] = val.slice();
-        else result[targetKey] = val;
+        if (isPlainObject(result[key]) && isPlainObject(val)) result[key] = merge(result[key], val);
+        else if (isPlainObject(val)) result[key] = merge({}, val);
+        else if (isArray(val)) result[key] = val.slice();
+        else result[key] = val;
     };
     for(let i = 0, l = arguments.length; i < l; i++)arguments[i] && forEach(arguments[i], assignValue);
     return result;
@@ -26251,12 +26204,6 @@ const reduceDescriptors = (obj, reducer)=>{
  * @param {Object} obj
  */ const freezeMethods = (obj)=>{
     reduceDescriptors(obj, (descriptor, name)=>{
-        // skip restricted props in strict mode
-        if (isFunction(obj) && [
-            "arguments",
-            "caller",
-            "callee"
-        ].indexOf(name) !== -1) return false;
         const value = obj[name];
         if (!isFunction(value)) return;
         descriptor.enumerable = false;
@@ -26265,7 +26212,7 @@ const reduceDescriptors = (obj, reducer)=>{
             return;
         }
         if (!descriptor.set) descriptor.set = ()=>{
-            throw Error("Can not rewrite read-only method '" + name + "'");
+            throw Error("Can not read-only method '" + name + "'");
         };
     });
 };
@@ -26283,26 +26230,6 @@ const noop = ()=>{};
 const toFiniteNumber = (value, defaultValue)=>{
     value = +value;
     return Number.isFinite(value) ? value : defaultValue;
-};
-const toJSONObject = (obj)=>{
-    const stack = new Array(10);
-    const visit = (source, i)=>{
-        if (isObject(source)) {
-            if (stack.indexOf(source) >= 0) return;
-            if (!("toJSON" in source)) {
-                stack[i] = source;
-                const target = isArray(source) ? [] : {};
-                forEach(source, (value, key)=>{
-                    const reducedValue = visit(value, i + 1);
-                    !isUndefined(reducedValue) && (target[key] = reducedValue);
-                });
-                stack[i] = undefined;
-                return target;
-            }
-        }
-        return source;
-    };
-    return visit(obj, 0);
 };
 exports.default = {
     isArray,
@@ -26346,11 +26273,7 @@ exports.default = {
     toObjectSet,
     toCamelCase,
     noop,
-    toFiniteNumber,
-    findKey,
-    global: _global,
-    isContextDefined,
-    toJSONObject
+    toFiniteNumber
 };
 
 },{"./helpers/bind.js":"haRQb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"haRQb":[function(require,module,exports) {
@@ -26413,22 +26336,17 @@ const validators = (0, _validatorJsDefault.default).validators;
             config.url = configOrUrl;
         } else config = configOrUrl || {};
         config = (0, _mergeConfigJsDefault.default)(this.defaults, config);
-        const { transitional , paramsSerializer , headers  } = config;
+        const transitional = config.transitional;
         if (transitional !== undefined) (0, _validatorJsDefault.default).assertOptions(transitional, {
             silentJSONParsing: validators.transitional(validators.boolean),
             forcedJSONParsing: validators.transitional(validators.boolean),
             clarifyTimeoutError: validators.transitional(validators.boolean)
         }, false);
-        if (paramsSerializer !== undefined) (0, _validatorJsDefault.default).assertOptions(paramsSerializer, {
-            encode: validators.function,
-            serialize: validators.function
-        }, true);
         // Set config.method
         config.method = (config.method || this.defaults.method || "get").toLowerCase();
-        let contextHeaders;
         // Flatten headers
-        contextHeaders = headers && (0, _utilsJsDefault.default).merge(headers.common, headers[config.method]);
-        contextHeaders && (0, _utilsJsDefault.default).forEach([
+        const defaultHeaders = config.headers && (0, _utilsJsDefault.default).merge(config.headers.common, config.headers[config.method]);
+        defaultHeaders && (0, _utilsJsDefault.default).forEach([
             "delete",
             "get",
             "head",
@@ -26436,10 +26354,10 @@ const validators = (0, _validatorJsDefault.default).validators;
             "put",
             "patch",
             "common"
-        ], (method)=>{
-            delete headers[method];
+        ], function cleanHeaderConfig(method) {
+            delete config.headers[method];
         });
-        config.headers = (0, _axiosHeadersJsDefault.default).concat(contextHeaders, headers);
+        config.headers = new (0, _axiosHeadersJsDefault.default)(config.headers, defaultHeaders);
         // filter out skipped interceptors
         const requestInterceptorChain = [];
         let synchronousRequestInterceptors = true;
@@ -26553,16 +26471,11 @@ var _axiosURLSearchParamsJsDefault = parcelHelpers.interopDefault(_axiosURLSearc
 }
 function buildURL(url, params, options) {
     /*eslint no-param-reassign:0*/ if (!params) return url;
+    const hashmarkIndex = url.indexOf("#");
+    if (hashmarkIndex !== -1) url = url.slice(0, hashmarkIndex);
     const _encode = options && options.encode || encode;
-    const serializeFn = options && options.serialize;
-    let serializedParams;
-    if (serializeFn) serializedParams = serializeFn(params, options);
-    else serializedParams = (0, _utilsJsDefault.default).isURLSearchParams(params) ? params.toString() : new (0, _axiosURLSearchParamsJsDefault.default)(params, options).toString(_encode);
-    if (serializedParams) {
-        const hashmarkIndex = url.indexOf("#");
-        if (hashmarkIndex !== -1) url = url.slice(0, hashmarkIndex);
-        url += (url.indexOf("?") === -1 ? "?" : "&") + serializedParams;
-    }
+    const serializerParams = (0, _utilsJsDefault.default).isURLSearchParams(params) ? params.toString() : new (0, _axiosURLSearchParamsJsDefault.default)(params, options).toString(_encode);
+    if (serializerParams) url += (url.indexOf("?") === -1 ? "?" : "&") + serializerParams;
     return url;
 }
 exports.default = buildURL;
@@ -26631,7 +26544,7 @@ var _axiosErrorJs = require("../core/AxiosError.js");
 var _axiosErrorJsDefault = parcelHelpers.interopDefault(_axiosErrorJs);
 var _formDataJs = require("../env/classes/FormData.js");
 var _formDataJsDefault = parcelHelpers.interopDefault(_formDataJs);
-var Buffer = require("4c3df4961d3d06a3").Buffer;
+var Buffer = require("97d762b073ba5ce0").Buffer;
 "use strict";
 /**
  * Determines if the given thing is a array or js object.
@@ -26759,7 +26672,7 @@ const predicates = (0, _utilsJsDefault.default).toFlatObject((0, _utilsJsDefault
                 // eslint-disable-next-line no-param-reassign
                 key = removeBrackets(key);
                 arr.forEach(function each(el, index) {
-                    !((0, _utilsJsDefault.default).isUndefined(el) || el === null) && formData.append(// eslint-disable-next-line no-nested-ternary
+                    !(0, _utilsJsDefault.default).isUndefined(el) && formData.append(// eslint-disable-next-line no-nested-ternary
                     indexes === true ? renderKey([
                         key
                     ], index, dots) : indexes === null ? key : key + "[]", convertValue(el));
@@ -26782,7 +26695,7 @@ const predicates = (0, _utilsJsDefault.default).toFlatObject((0, _utilsJsDefault
         if (stack.indexOf(value) !== -1) throw Error("Circular reference detected in " + path.join("."));
         stack.push(value);
         (0, _utilsJsDefault.default).forEach(value, function each(el, key) {
-            const result = !((0, _utilsJsDefault.default).isUndefined(el) || el === null) && visitor.call(formData, el, (0, _utilsJsDefault.default).isString(key) ? key.trim() : key, path, exposedHelpers);
+            const result = !(0, _utilsJsDefault.default).isUndefined(el) && visitor.call(formData, el, (0, _utilsJsDefault.default).isString(key) ? key.trim() : key, path, exposedHelpers);
             if (result === true) build(el, path ? path.concat(key) : [
                 key
             ]);
@@ -26795,15 +26708,15 @@ const predicates = (0, _utilsJsDefault.default).toFlatObject((0, _utilsJsDefault
 }
 exports.default = toFormData;
 
-},{"4c3df4961d3d06a3":"fCgem","../utils.js":"5By4s","../core/AxiosError.js":"3u8Tl","../env/classes/FormData.js":"lSnyf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fCgem":[function(require,module,exports) {
+},{"97d762b073ba5ce0":"fCgem","../utils.js":"5By4s","../core/AxiosError.js":"3u8Tl","../env/classes/FormData.js":"lSnyf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fCgem":[function(require,module,exports) {
 /*!
  * The buffer module from node.js, for the browser.
  *
  * @author   Feross Aboukhadijeh <https://feross.org>
  * @license  MIT
  */ /* eslint-disable no-proto */ "use strict";
-const base64 = require("73409d629c46edb3");
-const ieee754 = require("2cd2d9db5ccb6297");
+const base64 = require("ea36e9ed490e5b57");
+const ieee754 = require("a70423016700b38b");
 const customInspectSymbol = typeof Symbol === "function" && typeof Symbol["for"] === "function" // eslint-disable-line dot-notation
  ? Symbol["for"]("nodejs.util.inspect.custom") // eslint-disable-line dot-notation
  : null;
@@ -28221,7 +28134,7 @@ function BufferBigIntNotDefined() {
     throw new Error("BigInt not supported");
 }
 
-},{"73409d629c46edb3":"eIiSV","2cd2d9db5ccb6297":"cO95r"}],"eIiSV":[function(require,module,exports) {
+},{"ea36e9ed490e5b57":"eIiSV","a70423016700b38b":"cO95r"}],"eIiSV":[function(require,module,exports) {
 "use strict";
 exports.byteLength = byteLength;
 exports.toByteArray = toByteArray;
@@ -28433,7 +28346,7 @@ var _utilsJsDefault = parcelHelpers.interopDefault(_utilsJs);
             columnNumber: this.columnNumber,
             stack: this.stack,
             // Axios
-            config: (0, _utilsJsDefault.default).toJSONObject(this.config),
+            config: this.config,
             code: this.code,
             status: this.response && this.response.status ? this.response.status : null
         };
@@ -28561,8 +28474,6 @@ var _canceledErrorJs = require("../cancel/CanceledError.js");
 var _canceledErrorJsDefault = parcelHelpers.interopDefault(_canceledErrorJs);
 var _axiosHeadersJs = require("../core/AxiosHeaders.js");
 var _axiosHeadersJsDefault = parcelHelpers.interopDefault(_axiosHeadersJs);
-var _adaptersJs = require("../adapters/adapters.js");
-var _adaptersJsDefault = parcelHelpers.interopDefault(_adaptersJs);
 "use strict";
 /**
  * Throws a `CanceledError` if cancellation has been requested.
@@ -28572,19 +28483,14 @@ var _adaptersJsDefault = parcelHelpers.interopDefault(_adaptersJs);
  * @returns {void}
  */ function throwIfCancellationRequested(config) {
     if (config.cancelToken) config.cancelToken.throwIfRequested();
-    if (config.signal && config.signal.aborted) throw new (0, _canceledErrorJsDefault.default)(null, config);
+    if (config.signal && config.signal.aborted) throw new (0, _canceledErrorJsDefault.default)();
 }
 function dispatchRequest(config) {
     throwIfCancellationRequested(config);
     config.headers = (0, _axiosHeadersJsDefault.default).from(config.headers);
     // Transform request data
     config.data = (0, _transformDataJsDefault.default).call(config, config.transformRequest);
-    if ([
-        "post",
-        "put",
-        "patch"
-    ].indexOf(config.method) !== -1) config.headers.setContentType("application/x-www-form-urlencoded", false);
-    const adapter = (0, _adaptersJsDefault.default).getAdapter(config.adapter || (0, _indexJsDefault.default).adapter);
+    const adapter = config.adapter || (0, _indexJsDefault.default).adapter;
     return adapter(config).then(function onAdapterResolution(response) {
         throwIfCancellationRequested(config);
         // Transform response data
@@ -28605,7 +28511,7 @@ function dispatchRequest(config) {
 }
 exports.default = dispatchRequest;
 
-},{"./transformData.js":"eRqJY","../cancel/isCancel.js":"a0VmF","../defaults/index.js":"hXfHM","../cancel/CanceledError.js":"9PwCG","../core/AxiosHeaders.js":"cgSSx","../adapters/adapters.js":"d7JxI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eRqJY":[function(require,module,exports) {
+},{"./transformData.js":"eRqJY","../cancel/isCancel.js":"a0VmF","../defaults/index.js":"hXfHM","../cancel/CanceledError.js":"9PwCG","../core/AxiosHeaders.js":"cgSSx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eRqJY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("./../utils.js");
@@ -28645,10 +28551,26 @@ var _indexJs = require("../platform/index.js");
 var _indexJsDefault = parcelHelpers.interopDefault(_indexJs);
 var _formDataToJSONJs = require("../helpers/formDataToJSON.js");
 var _formDataToJSONJsDefault = parcelHelpers.interopDefault(_formDataToJSONJs);
+var _indexJs1 = require("../adapters/index.js");
+var _indexJsDefault1 = parcelHelpers.interopDefault(_indexJs1);
+var process = require("9e6ed9d542e4f502");
 "use strict";
 const DEFAULT_CONTENT_TYPE = {
-    "Content-Type": undefined
+    "Content-Type": "application/x-www-form-urlencoded"
 };
+/**
+ * If the browser has an XMLHttpRequest object, use the XHR adapter, otherwise use the HTTP
+ * adapter
+ *
+ * @returns {Function}
+ */ function getDefaultAdapter() {
+    let adapter;
+    if (typeof XMLHttpRequest !== "undefined") // For browsers use XHR adapter
+    adapter = (0, _indexJsDefault1.default).getAdapter("xhr");
+    else if (typeof process !== "undefined" && (0, _utilsJsDefault.default).kindOf(process) === "process") // For node use HTTP adapter
+    adapter = (0, _indexJsDefault1.default).getAdapter("http");
+    return adapter;
+}
 /**
  * It takes a string, tries to parse it, and if it fails, it returns the stringified version
  * of the input
@@ -28669,10 +28591,7 @@ const DEFAULT_CONTENT_TYPE = {
 }
 const defaults = {
     transitional: (0, _transitionalJsDefault.default),
-    adapter: [
-        "xhr",
-        "http"
-    ],
+    adapter: getDefaultAdapter(),
     transformRequest: [
         function transformRequest(data, headers) {
             const contentType = headers.getContentType() || "";
@@ -28764,7 +28683,7 @@ const defaults = {
 });
 exports.default = defaults;
 
-},{"../utils.js":"5By4s","../core/AxiosError.js":"3u8Tl","./transitional.js":"lM32f","../helpers/toFormData.js":"ajoez","../helpers/toURLEncodedForm.js":"9hjry","../platform/index.js":"7tDev","../helpers/formDataToJSON.js":"01RfH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lM32f":[function(require,module,exports) {
+},{"9e6ed9d542e4f502":"jhUEF","../utils.js":"5By4s","../core/AxiosError.js":"3u8Tl","./transitional.js":"lM32f","../helpers/toFormData.js":"ajoez","../helpers/toURLEncodedForm.js":"9hjry","../platform/index.js":"7tDev","../helpers/formDataToJSON.js":"01RfH","../adapters/index.js":"aeXzy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lM32f":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
@@ -28832,18 +28751,6 @@ var _formDataJsDefault = parcelHelpers.interopDefault(_formDataJs);
     if (typeof navigator !== "undefined" && ((product = navigator.product) === "ReactNative" || product === "NativeScript" || product === "NS")) return false;
     return typeof window !== "undefined" && typeof document !== "undefined";
 })();
-/**
- * Determine if we're running in a standard browser webWorker environment
- *
- * Although the `isStandardBrowserEnv` method indicates that
- * `allows axios to run in a web worker`, the WebWorker will still be
- * filtered out due to its judgment standard
- * `typeof window !== 'undefined' && typeof document !== 'undefined'`.
- * This leads to a problem when axios post `FormData` in webWorker
- */ const isStandardBrowserWebWorkerEnv = (()=>{
-    return typeof WorkerGlobalScope !== "undefined" && // eslint-disable-next-line no-undef
-    self instanceof WorkerGlobalScope && typeof self.importScripts === "function";
-})();
 exports.default = {
     isBrowser: true,
     classes: {
@@ -28852,7 +28759,6 @@ exports.default = {
         Blob
     },
     isStandardBrowserEnv,
-    isStandardBrowserWebWorkerEnv,
     protocols: [
         "http",
         "https",
@@ -28952,286 +28858,7 @@ var _utilsJsDefault = parcelHelpers.interopDefault(_utilsJs);
 }
 exports.default = formDataToJSON;
 
-},{"../utils.js":"5By4s","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cgSSx":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _utilsJs = require("../utils.js");
-var _utilsJsDefault = parcelHelpers.interopDefault(_utilsJs);
-var _parseHeadersJs = require("../helpers/parseHeaders.js");
-var _parseHeadersJsDefault = parcelHelpers.interopDefault(_parseHeadersJs);
-"use strict";
-const $internals = Symbol("internals");
-function normalizeHeader(header) {
-    return header && String(header).trim().toLowerCase();
-}
-function normalizeValue(value) {
-    if (value === false || value == null) return value;
-    return (0, _utilsJsDefault.default).isArray(value) ? value.map(normalizeValue) : String(value);
-}
-function parseTokens(str) {
-    const tokens = Object.create(null);
-    const tokensRE = /([^\s,;=]+)\s*(?:=\s*([^,;]+))?/g;
-    let match;
-    while(match = tokensRE.exec(str))tokens[match[1]] = match[2];
-    return tokens;
-}
-function isValidHeaderName(str) {
-    return /^[-_a-zA-Z]+$/.test(str.trim());
-}
-function matchHeaderValue(context, value, header, filter) {
-    if ((0, _utilsJsDefault.default).isFunction(filter)) return filter.call(this, value, header);
-    if (!(0, _utilsJsDefault.default).isString(value)) return;
-    if ((0, _utilsJsDefault.default).isString(filter)) return value.indexOf(filter) !== -1;
-    if ((0, _utilsJsDefault.default).isRegExp(filter)) return filter.test(value);
-}
-function formatHeader(header) {
-    return header.trim().toLowerCase().replace(/([a-z\d])(\w*)/g, (w, char, str)=>{
-        return char.toUpperCase() + str;
-    });
-}
-function buildAccessors(obj, header) {
-    const accessorName = (0, _utilsJsDefault.default).toCamelCase(" " + header);
-    [
-        "get",
-        "set",
-        "has"
-    ].forEach((methodName)=>{
-        Object.defineProperty(obj, methodName + accessorName, {
-            value: function(arg1, arg2, arg3) {
-                return this[methodName].call(this, header, arg1, arg2, arg3);
-            },
-            configurable: true
-        });
-    });
-}
-class AxiosHeaders {
-    constructor(headers){
-        headers && this.set(headers);
-    }
-    set(header, valueOrRewrite, rewrite) {
-        const self = this;
-        function setHeader(_value, _header, _rewrite) {
-            const lHeader = normalizeHeader(_header);
-            if (!lHeader) throw new Error("header name must be a non-empty string");
-            const key = (0, _utilsJsDefault.default).findKey(self, lHeader);
-            if (!key || self[key] === undefined || _rewrite === true || _rewrite === undefined && self[key] !== false) self[key || _header] = normalizeValue(_value);
-        }
-        const setHeaders = (headers, _rewrite)=>(0, _utilsJsDefault.default).forEach(headers, (_value, _header)=>setHeader(_value, _header, _rewrite));
-        if ((0, _utilsJsDefault.default).isPlainObject(header) || header instanceof this.constructor) setHeaders(header, valueOrRewrite);
-        else if ((0, _utilsJsDefault.default).isString(header) && (header = header.trim()) && !isValidHeaderName(header)) setHeaders((0, _parseHeadersJsDefault.default)(header), valueOrRewrite);
-        else header != null && setHeader(valueOrRewrite, header, rewrite);
-        return this;
-    }
-    get(header, parser) {
-        header = normalizeHeader(header);
-        if (header) {
-            const key = (0, _utilsJsDefault.default).findKey(this, header);
-            if (key) {
-                const value = this[key];
-                if (!parser) return value;
-                if (parser === true) return parseTokens(value);
-                if ((0, _utilsJsDefault.default).isFunction(parser)) return parser.call(this, value, key);
-                if ((0, _utilsJsDefault.default).isRegExp(parser)) return parser.exec(value);
-                throw new TypeError("parser must be boolean|regexp|function");
-            }
-        }
-    }
-    has(header, matcher) {
-        header = normalizeHeader(header);
-        if (header) {
-            const key = (0, _utilsJsDefault.default).findKey(this, header);
-            return !!(key && (!matcher || matchHeaderValue(this, this[key], key, matcher)));
-        }
-        return false;
-    }
-    delete(header, matcher) {
-        const self = this;
-        let deleted = false;
-        function deleteHeader(_header) {
-            _header = normalizeHeader(_header);
-            if (_header) {
-                const key = (0, _utilsJsDefault.default).findKey(self, _header);
-                if (key && (!matcher || matchHeaderValue(self, self[key], key, matcher))) {
-                    delete self[key];
-                    deleted = true;
-                }
-            }
-        }
-        if ((0, _utilsJsDefault.default).isArray(header)) header.forEach(deleteHeader);
-        else deleteHeader(header);
-        return deleted;
-    }
-    clear() {
-        return Object.keys(this).forEach(this.delete.bind(this));
-    }
-    normalize(format) {
-        const self = this;
-        const headers = {};
-        (0, _utilsJsDefault.default).forEach(this, (value, header)=>{
-            const key = (0, _utilsJsDefault.default).findKey(headers, header);
-            if (key) {
-                self[key] = normalizeValue(value);
-                delete self[header];
-                return;
-            }
-            const normalized = format ? formatHeader(header) : String(header).trim();
-            if (normalized !== header) delete self[header];
-            self[normalized] = normalizeValue(value);
-            headers[normalized] = true;
-        });
-        return this;
-    }
-    concat(...targets) {
-        return this.constructor.concat(this, ...targets);
-    }
-    toJSON(asStrings) {
-        const obj = Object.create(null);
-        (0, _utilsJsDefault.default).forEach(this, (value, header)=>{
-            value != null && value !== false && (obj[header] = asStrings && (0, _utilsJsDefault.default).isArray(value) ? value.join(", ") : value);
-        });
-        return obj;
-    }
-    [Symbol.iterator]() {
-        return Object.entries(this.toJSON())[Symbol.iterator]();
-    }
-    toString() {
-        return Object.entries(this.toJSON()).map(([header, value])=>header + ": " + value).join("\n");
-    }
-    get [Symbol.toStringTag]() {
-        return "AxiosHeaders";
-    }
-    static from(thing) {
-        return thing instanceof this ? thing : new this(thing);
-    }
-    static concat(first, ...targets) {
-        const computed = new this(first);
-        targets.forEach((target)=>computed.set(target));
-        return computed;
-    }
-    static accessor(header) {
-        const internals = this[$internals] = this[$internals] = {
-            accessors: {}
-        };
-        const accessors = internals.accessors;
-        const prototype = this.prototype;
-        function defineAccessor(_header) {
-            const lHeader = normalizeHeader(_header);
-            if (!accessors[lHeader]) {
-                buildAccessors(prototype, _header);
-                accessors[lHeader] = true;
-            }
-        }
-        (0, _utilsJsDefault.default).isArray(header) ? header.forEach(defineAccessor) : defineAccessor(header);
-        return this;
-    }
-}
-AxiosHeaders.accessor([
-    "Content-Type",
-    "Content-Length",
-    "Accept",
-    "Accept-Encoding",
-    "User-Agent"
-]);
-(0, _utilsJsDefault.default).freezeMethods(AxiosHeaders.prototype);
-(0, _utilsJsDefault.default).freezeMethods(AxiosHeaders);
-exports.default = AxiosHeaders;
-
-},{"../utils.js":"5By4s","../helpers/parseHeaders.js":"kqDd5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kqDd5":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _utilsJs = require("./../utils.js");
-var _utilsJsDefault = parcelHelpers.interopDefault(_utilsJs);
-"use strict";
-// RawAxiosHeaders whose duplicates are ignored by node
-// c.f. https://nodejs.org/api/http.html#http_message_headers
-const ignoreDuplicateOf = (0, _utilsJsDefault.default).toObjectSet([
-    "age",
-    "authorization",
-    "content-length",
-    "content-type",
-    "etag",
-    "expires",
-    "from",
-    "host",
-    "if-modified-since",
-    "if-unmodified-since",
-    "last-modified",
-    "location",
-    "max-forwards",
-    "proxy-authorization",
-    "referer",
-    "retry-after",
-    "user-agent"
-]);
-/**
- * Parse headers into an object
- *
- * ```
- * Date: Wed, 27 Aug 2014 08:58:49 GMT
- * Content-Type: application/json
- * Connection: keep-alive
- * Transfer-Encoding: chunked
- * ```
- *
- * @param {String} rawHeaders Headers needing to be parsed
- *
- * @returns {Object} Headers parsed into an object
- */ exports.default = (rawHeaders)=>{
-    const parsed = {};
-    let key;
-    let val;
-    let i;
-    rawHeaders && rawHeaders.split("\n").forEach(function parser(line) {
-        i = line.indexOf(":");
-        key = line.substring(0, i).trim().toLowerCase();
-        val = line.substring(i + 1).trim();
-        if (!key || parsed[key] && ignoreDuplicateOf[key]) return;
-        if (key === "set-cookie") {
-            if (parsed[key]) parsed[key].push(val);
-            else parsed[key] = [
-                val
-            ];
-        } else parsed[key] = parsed[key] ? parsed[key] + ", " + val : val;
-    });
-    return parsed;
-};
-
-},{"./../utils.js":"5By4s","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a0VmF":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-"use strict";
-function isCancel(value) {
-    return !!(value && value.__CANCEL__);
-}
-exports.default = isCancel;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9PwCG":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _axiosErrorJs = require("../core/AxiosError.js");
-var _axiosErrorJsDefault = parcelHelpers.interopDefault(_axiosErrorJs);
-var _utilsJs = require("../utils.js");
-var _utilsJsDefault = parcelHelpers.interopDefault(_utilsJs);
-"use strict";
-/**
- * A `CanceledError` is an object that is thrown when an operation is canceled.
- *
- * @param {string=} message The message.
- * @param {Object=} config The config.
- * @param {Object=} request The request.
- *
- * @returns {CanceledError} The created error.
- */ function CanceledError(message, config, request) {
-    // eslint-disable-next-line no-eq-null,eqeqeq
-    (0, _axiosErrorJsDefault.default).call(this, message == null ? "canceled" : message, (0, _axiosErrorJsDefault.default).ERR_CANCELED, config, request);
-    this.name = "CanceledError";
-}
-(0, _utilsJsDefault.default).inherits(CanceledError, (0, _axiosErrorJsDefault.default), {
-    __CANCEL__: true
-});
-exports.default = CanceledError;
-
-},{"../core/AxiosError.js":"3u8Tl","../utils.js":"5By4s","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d7JxI":[function(require,module,exports) {
+},{"../utils.js":"5By4s","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aeXzy":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("../utils.js");
@@ -29240,55 +28867,24 @@ var _httpJs = require("./http.js");
 var _httpJsDefault = parcelHelpers.interopDefault(_httpJs);
 var _xhrJs = require("./xhr.js");
 var _xhrJsDefault = parcelHelpers.interopDefault(_xhrJs);
-var _axiosErrorJs = require("../core/AxiosError.js");
-var _axiosErrorJsDefault = parcelHelpers.interopDefault(_axiosErrorJs);
-const knownAdapters = {
+const adapters = {
     http: (0, _httpJsDefault.default),
     xhr: (0, _xhrJsDefault.default)
 };
-(0, _utilsJsDefault.default).forEach(knownAdapters, (fn, value)=>{
-    if (fn) {
-        try {
-            Object.defineProperty(fn, "name", {
-                value
-            });
-        } catch (e) {
-        // eslint-disable-next-line no-empty
-        }
-        Object.defineProperty(fn, "adapterName", {
-            value
-        });
-    }
-});
 exports.default = {
-    getAdapter: (adapters)=>{
-        adapters = (0, _utilsJsDefault.default).isArray(adapters) ? adapters : [
-            adapters
-        ];
-        const { length  } = adapters;
-        let nameOrAdapter;
-        let adapter;
-        for(let i = 0; i < length; i++){
-            nameOrAdapter = adapters[i];
-            if (adapter = (0, _utilsJsDefault.default).isString(nameOrAdapter) ? knownAdapters[nameOrAdapter.toLowerCase()] : nameOrAdapter) break;
+    getAdapter: (nameOrAdapter)=>{
+        if ((0, _utilsJsDefault.default).isString(nameOrAdapter)) {
+            const adapter = adapters[nameOrAdapter];
+            if (!nameOrAdapter) throw Error((0, _utilsJsDefault.default).hasOwnProp(nameOrAdapter) ? `Adapter '${nameOrAdapter}' is not available in the build` : `Can not resolve adapter '${nameOrAdapter}'`);
+            return adapter;
         }
-        if (!adapter) {
-            if (adapter === false) throw new (0, _axiosErrorJsDefault.default)(`Adapter ${nameOrAdapter} is not supported by the environment`, "ERR_NOT_SUPPORT");
-            throw new Error((0, _utilsJsDefault.default).hasOwnProp(knownAdapters, nameOrAdapter) ? `Adapter '${nameOrAdapter}' is not available in the build` : `Unknown adapter '${nameOrAdapter}'`);
-        }
-        if (!(0, _utilsJsDefault.default).isFunction(adapter)) throw new TypeError("adapter is not a function");
-        return adapter;
+        if (!(0, _utilsJsDefault.default).isFunction(nameOrAdapter)) throw new TypeError("adapter is not a function");
+        return nameOrAdapter;
     },
-    adapters: knownAdapters
+    adapters
 };
 
-},{"../utils.js":"5By4s","./http.js":"aFlee","./xhr.js":"ldm57","../core/AxiosError.js":"3u8Tl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aFlee":[function(require,module,exports) {
-// eslint-disable-next-line strict
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-exports.default = null;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ldm57":[function(require,module,exports) {
+},{"../utils.js":"5By4s","./http.js":"ldm57","./xhr.js":"ldm57","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ldm57":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("./../utils.js");
@@ -29334,15 +28930,13 @@ function progressEventReducer(listener, isDownloadStream) {
             progress: total ? loaded / total : undefined,
             bytes: progressBytes,
             rate: rate ? rate : undefined,
-            estimated: rate && total && inRange ? (total - loaded) / rate : undefined,
-            event: e
+            estimated: rate && total && inRange ? (total - loaded) / rate : undefined
         };
         data[isDownloadStream ? "download" : "upload"] = true;
         listener(data);
     };
 }
-const isXHRAdapterSupported = typeof XMLHttpRequest !== "undefined";
-exports.default = isXHRAdapterSupported && function(config) {
+function xhrAdapter(config) {
     return new Promise(function dispatchXhrRequest(resolve, reject) {
         let requestData = config.data;
         const requestHeaders = (0, _axiosHeadersJsDefault.default).from(config.headers).normalize();
@@ -29352,7 +28946,7 @@ exports.default = isXHRAdapterSupported && function(config) {
             if (config.cancelToken) config.cancelToken.unsubscribe(onCanceled);
             if (config.signal) config.signal.removeEventListener("abort", onCanceled);
         }
-        if ((0, _utilsJsDefault.default).isFormData(requestData) && ((0, _indexJsDefault.default).isStandardBrowserEnv || (0, _indexJsDefault.default).isStandardBrowserWebWorkerEnv)) requestHeaders.setContentType(false); // Let the browser set it
+        if ((0, _utilsJsDefault.default).isFormData(requestData) && (0, _indexJsDefault.default).isStandardBrowserEnv) requestHeaders.setContentType(false); // Let the browser set it
         let request = new XMLHttpRequest();
         // HTTP basic authentication
         if (config.auth) {
@@ -29467,7 +29061,8 @@ exports.default = isXHRAdapterSupported && function(config) {
         // Send the request
         request.send(requestData || null);
     });
-};
+}
+exports.default = xhrAdapter;
 
 },{"./../utils.js":"5By4s","./../core/settle.js":"dD9aC","./../helpers/cookies.js":"4WJjt","./../helpers/buildURL.js":"3bwC2","../core/buildFullPath.js":"1I5TW","./../helpers/isURLSameOrigin.js":"lxXtv","../defaults/transitional.js":"lM32f","../core/AxiosError.js":"3u8Tl","../cancel/CanceledError.js":"9PwCG","../helpers/parseProtocol.js":"7NfWU","../platform/index.js":"7tDev","../core/AxiosHeaders.js":"cgSSx","../helpers/speedometer.js":"gQeo1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dD9aC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -29615,7 +29210,33 @@ function nonStandardBrowserEnv() {
     };
 }();
 
-},{"./../utils.js":"5By4s","../platform/index.js":"7tDev","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7NfWU":[function(require,module,exports) {
+},{"./../utils.js":"5By4s","../platform/index.js":"7tDev","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9PwCG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _axiosErrorJs = require("../core/AxiosError.js");
+var _axiosErrorJsDefault = parcelHelpers.interopDefault(_axiosErrorJs);
+var _utilsJs = require("../utils.js");
+var _utilsJsDefault = parcelHelpers.interopDefault(_utilsJs);
+"use strict";
+/**
+ * A `CanceledError` is an object that is thrown when an operation is canceled.
+ *
+ * @param {string=} message The message.
+ * @param {Object=} config The config.
+ * @param {Object=} request The request.
+ *
+ * @returns {CanceledError} The created error.
+ */ function CanceledError(message, config, request) {
+    // eslint-disable-next-line no-eq-null,eqeqeq
+    (0, _axiosErrorJsDefault.default).call(this, message == null ? "canceled" : message, (0, _axiosErrorJsDefault.default).ERR_CANCELED, config, request);
+    this.name = "CanceledError";
+}
+(0, _utilsJsDefault.default).inherits(CanceledError, (0, _axiosErrorJsDefault.default), {
+    __CANCEL__: true
+});
+exports.default = CanceledError;
+
+},{"../core/AxiosError.js":"3u8Tl","../utils.js":"5By4s","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7NfWU":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
@@ -29625,7 +29246,250 @@ function parseProtocol(url) {
 }
 exports.default = parseProtocol;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gQeo1":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cgSSx":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _utilsJs = require("../utils.js");
+var _utilsJsDefault = parcelHelpers.interopDefault(_utilsJs);
+var _parseHeadersJs = require("../helpers/parseHeaders.js");
+var _parseHeadersJsDefault = parcelHelpers.interopDefault(_parseHeadersJs);
+"use strict";
+const $internals = Symbol("internals");
+const $defaults = Symbol("defaults");
+function normalizeHeader(header) {
+    return header && String(header).trim().toLowerCase();
+}
+function normalizeValue(value) {
+    if (value === false || value == null) return value;
+    return String(value);
+}
+function parseTokens(str) {
+    const tokens = Object.create(null);
+    const tokensRE = /([^\s,;=]+)\s*(?:=\s*([^,;]+))?/g;
+    let match;
+    while(match = tokensRE.exec(str))tokens[match[1]] = match[2];
+    return tokens;
+}
+function matchHeaderValue(context, value, header, filter) {
+    if ((0, _utilsJsDefault.default).isFunction(filter)) return filter.call(this, value, header);
+    if (!(0, _utilsJsDefault.default).isString(value)) return;
+    if ((0, _utilsJsDefault.default).isString(filter)) return value.indexOf(filter) !== -1;
+    if ((0, _utilsJsDefault.default).isRegExp(filter)) return filter.test(value);
+}
+function formatHeader(header) {
+    return header.trim().toLowerCase().replace(/([a-z\d])(\w*)/g, (w, char, str)=>{
+        return char.toUpperCase() + str;
+    });
+}
+function buildAccessors(obj, header) {
+    const accessorName = (0, _utilsJsDefault.default).toCamelCase(" " + header);
+    [
+        "get",
+        "set",
+        "has"
+    ].forEach((methodName)=>{
+        Object.defineProperty(obj, methodName + accessorName, {
+            value: function(arg1, arg2, arg3) {
+                return this[methodName].call(this, header, arg1, arg2, arg3);
+            },
+            configurable: true
+        });
+    });
+}
+function findKey(obj, key) {
+    key = key.toLowerCase();
+    const keys = Object.keys(obj);
+    let i = keys.length;
+    let _key;
+    while(i-- > 0){
+        _key = keys[i];
+        if (key === _key.toLowerCase()) return _key;
+    }
+    return null;
+}
+function AxiosHeaders(headers, defaults) {
+    headers && this.set(headers);
+    this[$defaults] = defaults || null;
+}
+Object.assign(AxiosHeaders.prototype, {
+    set: function(header, valueOrRewrite, rewrite) {
+        const self = this;
+        function setHeader(_value, _header, _rewrite) {
+            const lHeader = normalizeHeader(_header);
+            if (!lHeader) throw new Error("header name must be a non-empty string");
+            const key = findKey(self, lHeader);
+            if (key && _rewrite !== true && (self[key] === false || _rewrite === false)) return;
+            if ((0, _utilsJsDefault.default).isArray(_value)) _value = _value.map(normalizeValue);
+            else _value = normalizeValue(_value);
+            self[key || _header] = _value;
+        }
+        if ((0, _utilsJsDefault.default).isPlainObject(header)) (0, _utilsJsDefault.default).forEach(header, (_value, _header)=>{
+            setHeader(_value, _header, valueOrRewrite);
+        });
+        else setHeader(valueOrRewrite, header, rewrite);
+        return this;
+    },
+    get: function(header, parser) {
+        header = normalizeHeader(header);
+        if (!header) return undefined;
+        const key = findKey(this, header);
+        if (key) {
+            const value = this[key];
+            if (!parser) return value;
+            if (parser === true) return parseTokens(value);
+            if ((0, _utilsJsDefault.default).isFunction(parser)) return parser.call(this, value, key);
+            if ((0, _utilsJsDefault.default).isRegExp(parser)) return parser.exec(value);
+            throw new TypeError("parser must be boolean|regexp|function");
+        }
+    },
+    has: function(header, matcher) {
+        header = normalizeHeader(header);
+        if (header) {
+            const key = findKey(this, header);
+            return !!(key && (!matcher || matchHeaderValue(this, this[key], key, matcher)));
+        }
+        return false;
+    },
+    delete: function(header, matcher) {
+        const self = this;
+        let deleted = false;
+        function deleteHeader(_header) {
+            _header = normalizeHeader(_header);
+            if (_header) {
+                const key = findKey(self, _header);
+                if (key && (!matcher || matchHeaderValue(self, self[key], key, matcher))) {
+                    delete self[key];
+                    deleted = true;
+                }
+            }
+        }
+        if ((0, _utilsJsDefault.default).isArray(header)) header.forEach(deleteHeader);
+        else deleteHeader(header);
+        return deleted;
+    },
+    clear: function() {
+        return Object.keys(this).forEach(this.delete.bind(this));
+    },
+    normalize: function(format) {
+        const self = this;
+        const headers = {};
+        (0, _utilsJsDefault.default).forEach(this, (value, header)=>{
+            const key = findKey(headers, header);
+            if (key) {
+                self[key] = normalizeValue(value);
+                delete self[header];
+                return;
+            }
+            const normalized = format ? formatHeader(header) : String(header).trim();
+            if (normalized !== header) delete self[header];
+            self[normalized] = normalizeValue(value);
+            headers[normalized] = true;
+        });
+        return this;
+    },
+    toJSON: function() {
+        const obj = Object.create(null);
+        (0, _utilsJsDefault.default).forEach(Object.assign({}, this[$defaults] || null, this), (value, header)=>{
+            if (value == null || value === false) return;
+            obj[header] = (0, _utilsJsDefault.default).isArray(value) ? value.join(", ") : value;
+        });
+        return obj;
+    }
+});
+Object.assign(AxiosHeaders, {
+    from: function(thing) {
+        if ((0, _utilsJsDefault.default).isString(thing)) return new this((0, _parseHeadersJsDefault.default)(thing));
+        return thing instanceof this ? thing : new this(thing);
+    },
+    accessor: function(header) {
+        const internals = this[$internals] = this[$internals] = {
+            accessors: {}
+        };
+        const accessors = internals.accessors;
+        const prototype = this.prototype;
+        function defineAccessor(_header) {
+            const lHeader = normalizeHeader(_header);
+            if (!accessors[lHeader]) {
+                buildAccessors(prototype, _header);
+                accessors[lHeader] = true;
+            }
+        }
+        (0, _utilsJsDefault.default).isArray(header) ? header.forEach(defineAccessor) : defineAccessor(header);
+        return this;
+    }
+});
+AxiosHeaders.accessor([
+    "Content-Type",
+    "Content-Length",
+    "Accept",
+    "Accept-Encoding",
+    "User-Agent"
+]);
+(0, _utilsJsDefault.default).freezeMethods(AxiosHeaders.prototype);
+(0, _utilsJsDefault.default).freezeMethods(AxiosHeaders);
+exports.default = AxiosHeaders;
+
+},{"../utils.js":"5By4s","../helpers/parseHeaders.js":"kqDd5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kqDd5":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _utilsJs = require("./../utils.js");
+var _utilsJsDefault = parcelHelpers.interopDefault(_utilsJs);
+"use strict";
+// RawAxiosHeaders whose duplicates are ignored by node
+// c.f. https://nodejs.org/api/http.html#http_message_headers
+const ignoreDuplicateOf = (0, _utilsJsDefault.default).toObjectSet([
+    "age",
+    "authorization",
+    "content-length",
+    "content-type",
+    "etag",
+    "expires",
+    "from",
+    "host",
+    "if-modified-since",
+    "if-unmodified-since",
+    "last-modified",
+    "location",
+    "max-forwards",
+    "proxy-authorization",
+    "referer",
+    "retry-after",
+    "user-agent"
+]);
+/**
+ * Parse headers into an object
+ *
+ * ```
+ * Date: Wed, 27 Aug 2014 08:58:49 GMT
+ * Content-Type: application/json
+ * Connection: keep-alive
+ * Transfer-Encoding: chunked
+ * ```
+ *
+ * @param {String} rawHeaders Headers needing to be parsed
+ *
+ * @returns {Object} Headers parsed into an object
+ */ exports.default = (rawHeaders)=>{
+    const parsed = {};
+    let key;
+    let val;
+    let i;
+    rawHeaders && rawHeaders.split("\n").forEach(function parser(line) {
+        i = line.indexOf(":");
+        key = line.substring(0, i).trim().toLowerCase();
+        val = line.substring(i + 1).trim();
+        if (!key || parsed[key] && ignoreDuplicateOf[key]) return;
+        if (key === "set-cookie") {
+            if (parsed[key]) parsed[key].push(val);
+            else parsed[key] = [
+                val
+            ];
+        } else parsed[key] = parsed[key] ? parsed[key] + ", " + val : val;
+    });
+    return parsed;
+};
+
+},{"./../utils.js":"5By4s","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gQeo1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
@@ -29663,86 +29527,89 @@ parcelHelpers.defineInteropFlag(exports);
 }
 exports.default = speedometer;
 
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a0VmF":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+"use strict";
+function isCancel(value) {
+    return !!(value && value.__CANCEL__);
+}
+exports.default = isCancel;
+
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b85oP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("../utils.js");
 var _utilsJsDefault = parcelHelpers.interopDefault(_utilsJs);
-var _axiosHeadersJs = require("./AxiosHeaders.js");
-var _axiosHeadersJsDefault = parcelHelpers.interopDefault(_axiosHeadersJs);
 "use strict";
-const headersToObject = (thing)=>thing instanceof (0, _axiosHeadersJsDefault.default) ? thing.toJSON() : thing;
 function mergeConfig(config1, config2) {
     // eslint-disable-next-line no-param-reassign
     config2 = config2 || {};
     const config = {};
-    function getMergedValue(target, source, caseless) {
-        if ((0, _utilsJsDefault.default).isPlainObject(target) && (0, _utilsJsDefault.default).isPlainObject(source)) return (0, _utilsJsDefault.default).merge.call({
-            caseless
-        }, target, source);
+    function getMergedValue(target, source) {
+        if ((0, _utilsJsDefault.default).isPlainObject(target) && (0, _utilsJsDefault.default).isPlainObject(source)) return (0, _utilsJsDefault.default).merge(target, source);
         else if ((0, _utilsJsDefault.default).isPlainObject(source)) return (0, _utilsJsDefault.default).merge({}, source);
         else if ((0, _utilsJsDefault.default).isArray(source)) return source.slice();
         return source;
     }
     // eslint-disable-next-line consistent-return
-    function mergeDeepProperties(a, b, caseless) {
-        if (!(0, _utilsJsDefault.default).isUndefined(b)) return getMergedValue(a, b, caseless);
-        else if (!(0, _utilsJsDefault.default).isUndefined(a)) return getMergedValue(undefined, a, caseless);
+    function mergeDeepProperties(prop) {
+        if (!(0, _utilsJsDefault.default).isUndefined(config2[prop])) return getMergedValue(config1[prop], config2[prop]);
+        else if (!(0, _utilsJsDefault.default).isUndefined(config1[prop])) return getMergedValue(undefined, config1[prop]);
     }
     // eslint-disable-next-line consistent-return
-    function valueFromConfig2(a, b) {
-        if (!(0, _utilsJsDefault.default).isUndefined(b)) return getMergedValue(undefined, b);
+    function valueFromConfig2(prop) {
+        if (!(0, _utilsJsDefault.default).isUndefined(config2[prop])) return getMergedValue(undefined, config2[prop]);
     }
     // eslint-disable-next-line consistent-return
-    function defaultToConfig2(a, b) {
-        if (!(0, _utilsJsDefault.default).isUndefined(b)) return getMergedValue(undefined, b);
-        else if (!(0, _utilsJsDefault.default).isUndefined(a)) return getMergedValue(undefined, a);
+    function defaultToConfig2(prop) {
+        if (!(0, _utilsJsDefault.default).isUndefined(config2[prop])) return getMergedValue(undefined, config2[prop]);
+        else if (!(0, _utilsJsDefault.default).isUndefined(config1[prop])) return getMergedValue(undefined, config1[prop]);
     }
     // eslint-disable-next-line consistent-return
-    function mergeDirectKeys(a, b, prop) {
-        if (prop in config2) return getMergedValue(a, b);
-        else if (prop in config1) return getMergedValue(undefined, a);
+    function mergeDirectKeys(prop) {
+        if (prop in config2) return getMergedValue(config1[prop], config2[prop]);
+        else if (prop in config1) return getMergedValue(undefined, config1[prop]);
     }
     const mergeMap = {
-        url: valueFromConfig2,
-        method: valueFromConfig2,
-        data: valueFromConfig2,
-        baseURL: defaultToConfig2,
-        transformRequest: defaultToConfig2,
-        transformResponse: defaultToConfig2,
-        paramsSerializer: defaultToConfig2,
-        timeout: defaultToConfig2,
-        timeoutMessage: defaultToConfig2,
-        withCredentials: defaultToConfig2,
-        adapter: defaultToConfig2,
-        responseType: defaultToConfig2,
-        xsrfCookieName: defaultToConfig2,
-        xsrfHeaderName: defaultToConfig2,
-        onUploadProgress: defaultToConfig2,
-        onDownloadProgress: defaultToConfig2,
-        decompress: defaultToConfig2,
-        maxContentLength: defaultToConfig2,
-        maxBodyLength: defaultToConfig2,
-        beforeRedirect: defaultToConfig2,
-        transport: defaultToConfig2,
-        httpAgent: defaultToConfig2,
-        httpsAgent: defaultToConfig2,
-        cancelToken: defaultToConfig2,
-        socketPath: defaultToConfig2,
-        responseEncoding: defaultToConfig2,
-        validateStatus: mergeDirectKeys,
-        headers: (a, b)=>mergeDeepProperties(headersToObject(a), headersToObject(b), true)
+        "url": valueFromConfig2,
+        "method": valueFromConfig2,
+        "data": valueFromConfig2,
+        "baseURL": defaultToConfig2,
+        "transformRequest": defaultToConfig2,
+        "transformResponse": defaultToConfig2,
+        "paramsSerializer": defaultToConfig2,
+        "timeout": defaultToConfig2,
+        "timeoutMessage": defaultToConfig2,
+        "withCredentials": defaultToConfig2,
+        "adapter": defaultToConfig2,
+        "responseType": defaultToConfig2,
+        "xsrfCookieName": defaultToConfig2,
+        "xsrfHeaderName": defaultToConfig2,
+        "onUploadProgress": defaultToConfig2,
+        "onDownloadProgress": defaultToConfig2,
+        "decompress": defaultToConfig2,
+        "maxContentLength": defaultToConfig2,
+        "maxBodyLength": defaultToConfig2,
+        "beforeRedirect": defaultToConfig2,
+        "transport": defaultToConfig2,
+        "httpAgent": defaultToConfig2,
+        "httpsAgent": defaultToConfig2,
+        "cancelToken": defaultToConfig2,
+        "socketPath": defaultToConfig2,
+        "responseEncoding": defaultToConfig2,
+        "validateStatus": mergeDirectKeys
     };
     (0, _utilsJsDefault.default).forEach(Object.keys(config1).concat(Object.keys(config2)), function computeConfigValue(prop) {
         const merge = mergeMap[prop] || mergeDeepProperties;
-        const configValue = merge(config1[prop], config2[prop], prop);
+        const configValue = merge(prop);
         (0, _utilsJsDefault.default).isUndefined(configValue) && merge !== mergeDirectKeys || (config[prop] = configValue);
     });
     return config;
 }
 exports.default = mergeConfig;
 
-},{"../utils.js":"5By4s","./AxiosHeaders.js":"cgSSx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9vgkY":[function(require,module,exports) {
+},{"../utils.js":"5By4s","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9vgkY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _dataJs = require("../env/data.js");
@@ -29820,7 +29687,7 @@ exports.default = {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "VERSION", ()=>VERSION);
-const VERSION = "1.2.3";
+const VERSION = "1.1.2";
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"45wzn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -29931,80 +29798,7 @@ function isAxiosError(payload) {
 }
 exports.default = isAxiosError;
 
-},{"./../utils.js":"5By4s","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fdR61":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-const HttpStatusCode = {
-    Continue: 100,
-    SwitchingProtocols: 101,
-    Processing: 102,
-    EarlyHints: 103,
-    Ok: 200,
-    Created: 201,
-    Accepted: 202,
-    NonAuthoritativeInformation: 203,
-    NoContent: 204,
-    ResetContent: 205,
-    PartialContent: 206,
-    MultiStatus: 207,
-    AlreadyReported: 208,
-    ImUsed: 226,
-    MultipleChoices: 300,
-    MovedPermanently: 301,
-    Found: 302,
-    SeeOther: 303,
-    NotModified: 304,
-    UseProxy: 305,
-    Unused: 306,
-    TemporaryRedirect: 307,
-    PermanentRedirect: 308,
-    BadRequest: 400,
-    Unauthorized: 401,
-    PaymentRequired: 402,
-    Forbidden: 403,
-    NotFound: 404,
-    MethodNotAllowed: 405,
-    NotAcceptable: 406,
-    ProxyAuthenticationRequired: 407,
-    RequestTimeout: 408,
-    Conflict: 409,
-    Gone: 410,
-    LengthRequired: 411,
-    PreconditionFailed: 412,
-    PayloadTooLarge: 413,
-    UriTooLong: 414,
-    UnsupportedMediaType: 415,
-    RangeNotSatisfiable: 416,
-    ExpectationFailed: 417,
-    ImATeapot: 418,
-    MisdirectedRequest: 421,
-    UnprocessableEntity: 422,
-    Locked: 423,
-    FailedDependency: 424,
-    TooEarly: 425,
-    UpgradeRequired: 426,
-    PreconditionRequired: 428,
-    TooManyRequests: 429,
-    RequestHeaderFieldsTooLarge: 431,
-    UnavailableForLegalReasons: 451,
-    InternalServerError: 500,
-    NotImplemented: 501,
-    BadGateway: 502,
-    ServiceUnavailable: 503,
-    GatewayTimeout: 504,
-    HttpVersionNotSupported: 505,
-    VariantAlsoNegotiates: 506,
-    InsufficientStorage: 507,
-    LoopDetected: 508,
-    NotExtended: 510,
-    NetworkAuthenticationRequired: 511
-};
-Object.entries(HttpStatusCode).forEach(([key, value])=>{
-    HttpStatusCode[value] = key;
-});
-exports.default = HttpStatusCode;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3AD9A":[function(require,module,exports) {
+},{"./../utils.js":"5By4s","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3AD9A":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Accordion", ()=>(0, _accordionDefault.default));
@@ -30503,8 +30297,7 @@ var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const CardImg = /*#__PURE__*/ _react.forwardRef(// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-({ bsPrefix , className , variant , as: Component = "img" , ...props }, ref)=>{
+const CardImg = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , variant , as: Component = "img" , ...props }, ref)=>{
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card-img");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ref: ref,
@@ -30570,8 +30363,8 @@ var _classnames = require("classnames");
 var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _jsxRuntime = require("react/jsx-runtime");
 const propTypes = {
-    /** An accessible label indicating the relevant information about the Close Button. */ "aria-label": (0, _propTypesDefault.default).string,
-    /** A callback fired after the Close Button is clicked. */ onClick: (0, _propTypesDefault.default).func,
+    "aria-label": (0, _propTypesDefault.default).string,
+    onClick: (0, _propTypesDefault.default).func,
     /**
    * Render different color variant for the button.
    *
@@ -30600,17 +30393,17 @@ exports.default = CloseButton;
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var ReactIs = require("11a0adbe6cba01b7");
+ */ var ReactIs = require("d393380125a2d187");
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
 var throwOnDirectAccess = true;
-module.exports = require("8d8e59459a5df411")(ReactIs.isElement, throwOnDirectAccess);
+module.exports = require("b2fd04f9e9db0642")(ReactIs.isElement, throwOnDirectAccess);
 
-},{"11a0adbe6cba01b7":"7EuwB","8d8e59459a5df411":"bBUgD"}],"7EuwB":[function(require,module,exports) {
+},{"d393380125a2d187":"7EuwB","b2fd04f9e9db0642":"bBUgD"}],"7EuwB":[function(require,module,exports) {
 "use strict";
-module.exports = require("ad0b6368736ef9e3");
+module.exports = require("3c8371b229f57c7c");
 
-},{"ad0b6368736ef9e3":"5DsXl"}],"5DsXl":[function(require,module,exports) {
+},{"3c8371b229f57c7c":"5DsXl"}],"5DsXl":[function(require,module,exports) {
 /** @license React v16.13.1
  * react-is.development.js
  *
@@ -30774,11 +30567,11 @@ module.exports = require("ad0b6368736ef9e3");
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */ "use strict";
-var ReactIs = require("944aaa5cd5828795");
-var assign = require("dab6e34f31cd3d0f");
-var ReactPropTypesSecret = require("2c55dd31d9f96539");
-var has = require("ffd39ec5eda453a3");
-var checkPropTypes = require("a301359b5e78a129");
+var ReactIs = require("194efbd56f772e39");
+var assign = require("14855d385415d94f");
+var ReactPropTypesSecret = require("35b2d0c802617800");
+var has = require("47e0e1df82bb741c");
+var checkPropTypes = require("de6fbe990bf3c079");
 var printWarning = function() {};
 printWarning = function(text) {
     var message = "Warning: " + text;
@@ -31205,7 +30998,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     return ReactPropTypes;
 };
 
-},{"944aaa5cd5828795":"7EuwB","dab6e34f31cd3d0f":"7OXxh","2c55dd31d9f96539":"jZTZJ","ffd39ec5eda453a3":"fqKuf","a301359b5e78a129":"5VwyJ"}],"jZTZJ":[function(require,module,exports) {
+},{"194efbd56f772e39":"7EuwB","14855d385415d94f":"7OXxh","35b2d0c802617800":"jZTZJ","47e0e1df82bb741c":"fqKuf","de6fbe990bf3c079":"5VwyJ"}],"jZTZJ":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -31226,9 +31019,9 @@ module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
  * LICENSE file in the root directory of this source tree.
  */ "use strict";
 var printWarning = function() {};
-var ReactPropTypesSecret = require("dc3c1512e4d25cc2");
+var ReactPropTypesSecret = require("97b2b4e7ec2bfa1b");
 var loggedTypeFailures = {};
-var has = require("d260ac4418f0a4d4");
+var has = require("6c416f5b201baa1");
 printWarning = function(text) {
     var message = "Warning: " + text;
     if (typeof console !== "undefined") console.error(message);
@@ -31286,7 +31079,7 @@ printWarning = function(text) {
 };
 module.exports = checkPropTypes;
 
-},{"dc3c1512e4d25cc2":"jZTZJ","d260ac4418f0a4d4":"fqKuf"}],"2L2I6":[function(require,module,exports) {
+},{"97b2b4e7ec2bfa1b":"jZTZJ","6c416f5b201baa1":"fqKuf"}],"2L2I6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCol", ()=>useCol);
@@ -31326,8 +31119,7 @@ function useCol({ as , bsPrefix , className , ...props }) {
         }
     ];
 }
-const Col = /*#__PURE__*/ _react.forwardRef(// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-(props, ref)=>{
+const Col = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
     const [{ className , ...colProps }, { as: Component = "div" , bsPrefix , spans  }] = useCol(props);
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ...colProps,
@@ -31440,8 +31232,7 @@ const Collapse = /*#__PURE__*/ (0, _reactDefault.default).forwardRef(({ onEnter 
                 className: (0, _classnamesDefault.default)(className, children.props.className, collapseStyles[state], computedDimension === "width" && "collapse-horizontal")
             })
     });
-});
-// @ts-ignore
+}); // @ts-ignore
 // @ts-ignore
 Collapse.defaultProps = defaultProps;
 exports.default = Collapse;
@@ -32336,8 +32127,7 @@ function createChainedFunction(...funcs) {
         if (acc === null) return f;
         return function chainedFunction(...args) {
             // @ts-ignore
-            acc.apply(this, args);
-            // @ts-ignore
+            acc.apply(this, args); // @ts-ignore
             f.apply(this, args);
         };
     }, null);
@@ -32670,8 +32460,7 @@ const propTypes = {
     /** Display feedback as a tooltip. */ tooltip: (0, _propTypesDefault.default).bool,
     as: (0, _propTypesDefault.default).elementType
 };
-const Feedback = /*#__PURE__*/ _react.forwardRef(// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-({ as: Component = "div" , className , type ="valid" , tooltip =false , ...props }, ref)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+const Feedback = /*#__PURE__*/ _react.forwardRef(({ as: Component = "div" , className , type ="valid" , tooltip =false , ...props }, ref)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ...props,
         ref: ref,
         className: (0, _classnamesDefault.default)(className, `${type}-${tooltip ? "tooltip" : "feedback"}`)
@@ -32708,8 +32497,7 @@ exports.default = FormCheckInput;
 },{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gjvSt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _react = require("react");
-// TODO
+var _react = require("react"); // TODO
 const FormContext = /*#__PURE__*/ _react.createContext({});
 exports.default = FormContext;
 
@@ -32991,8 +32779,7 @@ var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const FormText = /*#__PURE__*/ _react.forwardRef(// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-({ bsPrefix , className , as: Component = "small" , muted , ...props }, ref)=>{
+const FormText = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , as: Component = "small" , muted , ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "form-text");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ...props,
@@ -33118,7 +32905,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = all;
-var _createChainableTypeChecker = require("fb422e5ede387a70");
+var _createChainableTypeChecker = require("32ae7774786e3a4f");
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
@@ -33141,7 +32928,7 @@ function all() {
 }
 module.exports = exports["default"];
 
-},{"fb422e5ede387a70":"1m8lT"}],"1m8lT":[function(require,module,exports) {
+},{"32ae7774786e3a4f":"1m8lT"}],"1m8lT":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -33645,8 +33432,7 @@ const Nav = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
     let getControlledId, getControllerId;
     if (tabContext) {
         role = role || "tablist";
-        activeKey = tabContext.activeKey;
-        // TODO: do we need to duplicate these?
+        activeKey = tabContext.activeKey; // TODO: do we need to duplicate these?
         getControlledId = tabContext.getControlledId;
         getControllerId = tabContext.getControllerId;
     }
@@ -33833,8 +33619,7 @@ function useNavItem({ key , onClick , active , id , role , disabled  }) {
     if (navContext) {
         if (!role && navContext.role === "tablist") props.role = "tab";
         const contextControllerId = navContext.getControllerId(key != null ? key : null);
-        const contextControlledId = navContext.getControlledId(key != null ? key : null);
-        // @ts-ignore
+        const contextControlledId = navContext.getControlledId(key != null ? key : null); // @ts-ignore
         props[(0, _dataKey.dataAttr)("event-key")] = key;
         props.id = contextControllerId || id;
         isActive = active == null && key != null ? navContext.activeKey === key : active;
@@ -33874,8 +33659,7 @@ const NavItem = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
     const [props, meta] = useNavItem(Object.assign({
         key: (0, _selectableContext.makeEventKey)(eventKey, options.href),
         active
-    }, options));
-    // @ts-ignore
+    }, options)); // @ts-ignore
     props[(0, _dataKey.dataAttr)("active")] = meta.isActive;
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, Object.assign({}, options, props, {
         ref: ref
@@ -33926,8 +33710,7 @@ exports.default = useCommittedRef;
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dpn1g":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _react = require("react");
-// TODO: check
+var _react = require("react"); // TODO: check
 const context = /*#__PURE__*/ _react.createContext(null);
 context.displayName = "NavbarContext";
 exports.default = context;
@@ -34428,8 +34211,7 @@ const Navbar = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
         collapseOnSelect,
         expanded,
         onToggle
-    ]);
-    // will result in some false positives but that seems better
+    ]); // will result in some false positives but that seems better
     // than false negatives. strict `undefined` check allows explicit
     // "nulling" of the role if the user really doesn't want one
     if (controlledProps.role === undefined && Component !== "nav") controlledProps.role = "navigation";
@@ -34899,7 +34681,6 @@ var _useWaitForDOMRef = require("./useWaitForDOMRef");
 var _useWaitForDOMRefDefault = parcelHelpers.interopDefault(_useWaitForDOMRef);
 var _useWindow = require("./useWindow");
 var _useWindowDefault = parcelHelpers.interopDefault(_useWindow);
-var _imperativeTransition = require("./ImperativeTransition");
 var _jsxRuntime = require("react/jsx-runtime");
 const _excluded = [
     "show",
@@ -34912,9 +34693,7 @@ const _excluded = [
     "onBackdropClick",
     "onEscapeKeyDown",
     "transition",
-    "runTransition",
     "backdropTransition",
-    "runBackdropTransition",
     "autoFocus",
     "enforceFocus",
     "restoreFocus",
@@ -34971,7 +34750,7 @@ function useModalManager(provided) {
     });
 }
 const Modal = /*#__PURE__*/ (0, _react.forwardRef)((_ref, ref)=>{
-    let { show =false , role ="dialog" , className , style , children , backdrop =true , keyboard =true , onBackdropClick , onEscapeKeyDown , transition , runTransition , backdropTransition , runBackdropTransition , autoFocus =true , enforceFocus =true , restoreFocus =true , restoreFocusOptions , renderDialog , renderBackdrop =(props)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)("div", Object.assign({}, props)) , manager: providedManager , container: containerRef , onShow , onHide =()=>{} , onExit , onExited , onExiting , onEnter , onEntering , onEntered  } = _ref, rest = _objectWithoutPropertiesLoose(_ref, _excluded);
+    let { show =false , role ="dialog" , className , style , children , backdrop =true , keyboard =true , onBackdropClick , onEscapeKeyDown , transition , backdropTransition , autoFocus =true , enforceFocus =true , restoreFocus =true , restoreFocusOptions , renderDialog , renderBackdrop =(props)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)("div", Object.assign({}, props)) , manager: providedManager , container: containerRef , onShow , onHide =()=>{} , onExit , onExited , onExiting , onEnter , onEntering , onEntered  } = _ref, rest = _objectWithoutPropertiesLoose(_ref, _excluded);
     const container = (0, _useWaitForDOMRefDefault.default)(containerRef);
     const modal = useModalManager(providedManager);
     const isMounted = (0, _useMountedDefault.default)();
@@ -34982,16 +34761,15 @@ const Modal = /*#__PURE__*/ (0, _react.forwardRef)((_ref, ref)=>{
         modal
     ]);
     if ((0, _canUseDOMDefault.default) && !prevShow && show) lastFocusRef.current = (0, _activeElementDefault.default)();
-    // TODO: I think this needs to be in an effect
-    if (show && exited) setExited(false);
+    if (!transition && !show && !exited) setExited(true);
+    else if (show && exited) setExited(false);
     const handleShow = (0, _useEventCallbackDefault.default)(()=>{
         modal.add();
         removeKeydownListenerRef.current = (0, _listenDefault.default)(document, "keydown", handleDocumentKeyDown);
-        removeFocusListenerRef.current = (0, _listenDefault.default)(document, "focus", // the timeout is necessary b/c this will run before the new modal is mounted
-        // and so steals focus from it
+        removeFocusListenerRef.current = (0, _listenDefault.default)(document, "focus", // and so steals focus from it
         ()=>setTimeout(handleEnforceFocus), true);
         if (onShow) onShow();
-        // autofocus after onShow to not trigger a focus event for previous
+         // autofocus after onShow to not trigger a focus event for previous
         // modals before this one is shown.
         if (autoFocus) {
             const currentActiveElement = (0, _activeElementDefault.default)(document);
@@ -35011,8 +34789,7 @@ const Modal = /*#__PURE__*/ (0, _react.forwardRef)((_ref, ref)=>{
             (_lastFocusRef$current = lastFocusRef.current) == null || _lastFocusRef$current.focus == null || _lastFocusRef$current.focus(restoreFocusOptions);
             lastFocusRef.current = null;
         }
-    });
-    // TODO: try and combine these effects: https://github.com/react-bootstrap/react-overlays/pull/794#discussion_r409954120
+    }); // TODO: try and combine these effects: https://github.com/react-bootstrap/react-overlays/pull/794#discussion_r409954120
     // Show logic when:
     //  - show is `true` _and_ `container` has resolved
     (0, _react.useEffect)(()=>{
@@ -35022,8 +34799,7 @@ const Modal = /*#__PURE__*/ (0, _react.forwardRef)((_ref, ref)=>{
         show,
         container,
         /* should never change: */ handleShow
-    ]);
-    // Hide cleanup logic when:
+    ]); // Hide cleanup logic when:
     //  - `exited` switches to true
     //  - component unmounts;
     (0, _react.useEffect)(()=>{
@@ -35035,8 +34811,7 @@ const Modal = /*#__PURE__*/ (0, _react.forwardRef)((_ref, ref)=>{
     ]);
     (0, _useWillUnmountDefault.default)(()=>{
         handleHide();
-    });
-    // --------------------------------
+    }); // --------------------------------
     const handleEnforceFocus = (0, _useEventCallbackDefault.default)(()=>{
         if (!enforceFocus || !isMounted() || !modal.isTopModal()) return;
         const currentActiveElement = (0, _activeElementDefault.default)();
@@ -35059,7 +34834,8 @@ const Modal = /*#__PURE__*/ (0, _react.forwardRef)((_ref, ref)=>{
         setExited(true);
         onExited == null || onExited(...args);
     };
-    if (!container) return null;
+    const Transition = transition;
+    if (!container || !(show || Transition && !exited)) return null;
     const dialogProps = Object.assign({
         role,
         ref: modal.setDialogRef,
@@ -35075,30 +34851,28 @@ const Modal = /*#__PURE__*/ (0, _react.forwardRef)((_ref, ref)=>{
             role: "document"
         })
     }));
-    dialog = (0, _imperativeTransition.renderTransition)(transition, runTransition, {
-        unmountOnExit: true,
-        mountOnEnter: true,
+    if (Transition) dialog = /*#__PURE__*/ (0, _jsxRuntime.jsx)(Transition, {
         appear: true,
+        unmountOnExit: true,
         in: !!show,
-        onExit,
-        onExiting,
+        onExit: onExit,
+        onExiting: onExiting,
         onExited: handleHidden,
-        onEnter,
-        onEntering,
-        onEntered,
+        onEnter: onEnter,
+        onEntering: onEntering,
+        onEntered: onEntered,
         children: dialog
     });
     let backdropElement = null;
     if (backdrop) {
+        const BackdropTransition = backdropTransition;
         backdropElement = renderBackdrop({
             ref: modal.setBackdropRef,
             onClick: handleBackdropClick
         });
-        backdropElement = (0, _imperativeTransition.renderTransition)(backdropTransition, runBackdropTransition, {
-            in: !!show,
+        if (BackdropTransition) backdropElement = /*#__PURE__*/ (0, _jsxRuntime.jsx)(BackdropTransition, {
             appear: true,
-            mountOnEnter: true,
-            unmountOnExit: true,
+            in: !!show,
             children: backdropElement
         });
     }
@@ -35116,7 +34890,7 @@ exports.default = Object.assign(Modal, {
     Manager: (0, _modalManagerDefault.default)
 });
 
-},{"dom-helpers/activeElement":"5ShA6","dom-helpers/contains":"KpRFS","dom-helpers/canUseDOM":"9AwUB","dom-helpers/listen":"1i4e7","react":"21dqq","react-dom":"j6uA9","@restart/hooks/useMounted":"iK6A1","@restart/hooks/useWillUnmount":"2OOXI","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useEventCallback":"7ONdq","./ModalManager":"5alMm","./useWaitForDOMRef":"83lRQ","./useWindow":"4AsJ2","./ImperativeTransition":"j0Jao","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5ShA6":[function(require,module,exports) {
+},{"dom-helpers/activeElement":"5ShA6","dom-helpers/contains":"KpRFS","dom-helpers/canUseDOM":"9AwUB","dom-helpers/listen":"1i4e7","react":"21dqq","react-dom":"j6uA9","@restart/hooks/useMounted":"iK6A1","@restart/hooks/useWillUnmount":"2OOXI","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useEventCallback":"7ONdq","./ModalManager":"5alMm","./useWaitForDOMRef":"83lRQ","./useWindow":"4AsJ2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5ShA6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _ownerDocument = require("./ownerDocument");
@@ -35205,17 +34979,12 @@ const OPEN_DATA_ATTRIBUTE = (0, _dataKey.dataAttr)("modal-open");
     getElement() {
         return (this.ownerDocument || document).body;
     }
-    setModalAttributes(_modal) {
-    // For overriding
-    }
-    removeModalAttributes(_modal) {
-    // For overriding
-    }
+    setModalAttributes(_modal) {}
+    removeModalAttributes(_modal) {}
     setContainerStyle(containerState) {
         const style = {
             overflow: "hidden"
-        };
-        // we are only interested in the actual `style` here
+        }; // we are only interested in the actual `style` here
         // because we will override it
         const paddingProp = this.isRTL ? "paddingLeft" : "paddingRight";
         const container = this.getElement();
@@ -35256,8 +35025,7 @@ const OPEN_DATA_ATTRIBUTE = (0, _dataKey.dataAttr)("modal-open");
     remove(modal) {
         const modalIdx = this.modals.indexOf(modal);
         if (modalIdx === -1) return;
-        this.modals.splice(modalIdx, 1);
-        // if that was the last modal in a container,
+        this.modals.splice(modalIdx, 1); // if that was the last modal in a container,
         // clean up the container
         if (!this.modals.length && this.handleContainerOverflow) this.removeContainerStyle(this.state);
         this.removeModalAttributes(modal);
@@ -35336,106 +35104,7 @@ function useWindow() {
 }
 exports.default = useWindow;
 
-},{"react":"21dqq","dom-helpers/canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"j0Jao":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "useTransition", ()=>useTransition);
-parcelHelpers.export(exports, "renderTransition", ()=>renderTransition);
-var _useMergedRefs = require("@restart/hooks/useMergedRefs");
-var _useMergedRefsDefault = parcelHelpers.interopDefault(_useMergedRefs);
-var _useEventCallback = require("@restart/hooks/useEventCallback");
-var _useEventCallbackDefault = parcelHelpers.interopDefault(_useEventCallback);
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _noopTransition = require("./NoopTransition");
-var _noopTransitionDefault = parcelHelpers.interopDefault(_noopTransition);
-var _jsxRuntime = require("react/jsx-runtime");
-function useTransition({ in: inProp , onTransition  }) {
-    const ref = (0, _react.useRef)(null);
-    const isInitialRef = (0, _react.useRef)(true);
-    const handleTransition = (0, _useEventCallbackDefault.default)(onTransition);
-    (0, _react.useEffect)(()=>{
-        if (!ref.current) return;
-        handleTransition({
-            in: inProp,
-            element: ref.current,
-            initial: isInitialRef.current
-        });
-    }, [
-        inProp,
-        handleTransition
-    ]);
-    (0, _react.useEffect)(()=>{
-        isInitialRef.current = false;
-        // this is for strict mode
-        return ()=>{
-            isInitialRef.current = true;
-        };
-    }, []);
-    return ref;
-}
-function ImperativeTransition({ children , in: inProp , onExited , onEntered , transition  }) {
-    const [exited, setExited] = (0, _react.useState)(!inProp);
-    const ref = useTransition({
-        in: !!inProp,
-        onTransition: (options)=>{
-            const onFinish = ()=>{
-                if (options.in) {
-                    setExited(false);
-                    onEntered == null || onEntered(options.element, options.initial);
-                } else {
-                    setExited(true);
-                    onExited == null || onExited(options.element);
-                }
-            };
-            Promise.resolve(transition(options)).then(onFinish);
-        }
-    });
-    const combinedRef = (0, _useMergedRefsDefault.default)(ref, children.ref);
-    return exited && !inProp ? null : /*#__PURE__*/ (0, _react.cloneElement)(children, {
-        ref: combinedRef
-    });
-}
-exports.default = ImperativeTransition;
-function renderTransition(Component, runTransition, props) {
-    if (Component) return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, Object.assign({}, props));
-    if (runTransition) return /*#__PURE__*/ (0, _jsxRuntime.jsx)(ImperativeTransition, Object.assign({}, props, {
-        transition: runTransition
-    }));
-    return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _noopTransitionDefault.default), Object.assign({}, props));
-}
-
-},{"@restart/hooks/useMergedRefs":"6hhuo","@restart/hooks/useEventCallback":"7ONdq","react":"21dqq","./NoopTransition":"cwnaj","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cwnaj":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _useEventCallback = require("@restart/hooks/useEventCallback");
-var _useEventCallbackDefault = parcelHelpers.interopDefault(_useEventCallback);
-var _useMergedRefs = require("@restart/hooks/useMergedRefs");
-var _useMergedRefsDefault = parcelHelpers.interopDefault(_useMergedRefs);
-var _react = require("react");
-function NoopTransition({ children , in: inProp , onExited , mountOnEnter , unmountOnExit  }) {
-    const ref = (0, _react.useRef)(null);
-    const hasEnteredRef = (0, _react.useRef)(inProp);
-    const handleExited = (0, _useEventCallbackDefault.default)(onExited);
-    (0, _react.useEffect)(()=>{
-        if (inProp) hasEnteredRef.current = true;
-        else handleExited(ref.current);
-    }, [
-        inProp,
-        handleExited
-    ]);
-    const combinedRef = (0, _useMergedRefsDefault.default)(ref, children.ref);
-    const child = /*#__PURE__*/ (0, _react.cloneElement)(children, {
-        ref: combinedRef
-    });
-    if (inProp) return child;
-    if (unmountOnExit) return null;
-    if (!hasEnteredRef.current && mountOnEnter) return null;
-    return child;
-}
-exports.default = NoopTransition;
-
-},{"@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useMergedRefs":"6hhuo","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fX7Bo":[function(require,module,exports) {
+},{"react":"21dqq","dom-helpers/canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fX7Bo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
@@ -35588,8 +35257,7 @@ const Selector = {
 };
 class BootstrapModalManager extends (0, _modalManagerDefault.default) {
     adjustAndStore(prop, element, adjust) {
-        const actual = element.style[prop];
-        // TODO: DOMStringMap and CSSStyleDeclaration aren't strictly compatible
+        const actual = element.style[prop]; // TODO: DOMStringMap and CSSStyleDeclaration aren't strictly compatible
         // @ts-ignore
         element.dataset[prop] = actual;
         (0, _cssDefault.default)(element, {
@@ -36018,6 +35686,8 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _history = require("history");
 var _tinyWarning = require("tiny-warning");
 var _tinyWarningDefault = parcelHelpers.interopDefault(_tinyWarning);
+var _miniCreateReactContext = require("mini-create-react-context");
+var _miniCreateReactContextDefault = parcelHelpers.interopDefault(_miniCreateReactContext);
 var _tinyInvariant = require("tiny-invariant");
 var _tinyInvariantDefault = parcelHelpers.interopDefault(_tinyInvariant);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -36029,141 +35699,9 @@ var _objectWithoutPropertiesLoose = require("@babel/runtime/helpers/esm/objectWi
 var _objectWithoutPropertiesLooseDefault = parcelHelpers.interopDefault(_objectWithoutPropertiesLoose);
 var _hoistNonReactStatics = require("hoist-non-react-statics");
 var _hoistNonReactStaticsDefault = parcelHelpers.interopDefault(_hoistNonReactStatics);
-var global = arguments[3];
-var MAX_SIGNED_31_BIT_INT = 1073741823;
-var commonjsGlobal = typeof globalThis !== "undefined" // 'global proper'
- ? globalThis : typeof window !== "undefined" ? window // Browser
- : typeof global !== "undefined" ? global // node.js
- : {};
-function getUniqueId() {
-    var key = "__global_unique_id__";
-    return commonjsGlobal[key] = (commonjsGlobal[key] || 0) + 1;
-} // Inlined Object.is polyfill.
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
-function objectIs(x, y) {
-    if (x === y) return x !== 0 || 1 / x === 1 / y;
-    else // eslint-disable-next-line no-self-compare
-    return x !== x && y !== y;
-}
-function createEventEmitter(value) {
-    var handlers = [];
-    return {
-        on: function on(handler) {
-            handlers.push(handler);
-        },
-        off: function off(handler) {
-            handlers = handlers.filter(function(h) {
-                return h !== handler;
-            });
-        },
-        get: function get() {
-            return value;
-        },
-        set: function set(newValue, changedBits) {
-            value = newValue;
-            handlers.forEach(function(handler) {
-                return handler(value, changedBits);
-            });
-        }
-    };
-}
-function onlyChild(children) {
-    return Array.isArray(children) ? children[0] : children;
-}
-function createReactContext(defaultValue, calculateChangedBits) {
-    var _Provider$childContex, _Consumer$contextType;
-    var contextProp = "__create-react-context-" + getUniqueId() + "__";
-    var Provider = /*#__PURE__*/ function(_React$Component) {
-        (0, _inheritsLooseDefault.default)(Provider, _React$Component);
-        function Provider() {
-            var _this;
-            for(var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++)args[_key] = arguments[_key];
-            _this = _React$Component.call.apply(_React$Component, [
-                this
-            ].concat(args)) || this;
-            _this.emitter = createEventEmitter(_this.props.value);
-            return _this;
-        }
-        var _proto = Provider.prototype;
-        _proto.getChildContext = function getChildContext() {
-            var _ref;
-            return _ref = {}, _ref[contextProp] = this.emitter, _ref;
-        };
-        _proto.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
-            if (this.props.value !== nextProps.value) {
-                var oldValue = this.props.value;
-                var newValue = nextProps.value;
-                var changedBits;
-                if (objectIs(oldValue, newValue)) changedBits = 0; // No change
-                else {
-                    changedBits = typeof calculateChangedBits === "function" ? calculateChangedBits(oldValue, newValue) : MAX_SIGNED_31_BIT_INT;
-                    (0, _tinyWarningDefault.default)((changedBits & MAX_SIGNED_31_BIT_INT) === changedBits, "calculateChangedBits: Expected the return value to be a 31-bit integer. Instead received: " + changedBits);
-                    changedBits |= 0;
-                    if (changedBits !== 0) this.emitter.set(nextProps.value, changedBits);
-                }
-            }
-        };
-        _proto.render = function render() {
-            return this.props.children;
-        };
-        return Provider;
-    }((0, _reactDefault.default).Component);
-    Provider.childContextTypes = (_Provider$childContex = {}, _Provider$childContex[contextProp] = (0, _propTypesDefault.default).object.isRequired, _Provider$childContex);
-    var Consumer = /*#__PURE__*/ function(_React$Component2) {
-        (0, _inheritsLooseDefault.default)(Consumer, _React$Component2);
-        function Consumer() {
-            var _this2;
-            for(var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++)args[_key2] = arguments[_key2];
-            _this2 = _React$Component2.call.apply(_React$Component2, [
-                this
-            ].concat(args)) || this;
-            _this2.observedBits = void 0;
-            _this2.state = {
-                value: _this2.getValue()
-            };
-            _this2.onUpdate = function(newValue, changedBits) {
-                var observedBits = _this2.observedBits | 0;
-                if ((observedBits & changedBits) !== 0) _this2.setState({
-                    value: _this2.getValue()
-                });
-            };
-            return _this2;
-        }
-        var _proto2 = Consumer.prototype;
-        _proto2.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
-            var observedBits = nextProps.observedBits;
-            this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT // Subscribe to all changes by default
-             : observedBits;
-        };
-        _proto2.componentDidMount = function componentDidMount() {
-            if (this.context[contextProp]) this.context[contextProp].on(this.onUpdate);
-            var observedBits = this.props.observedBits;
-            this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT // Subscribe to all changes by default
-             : observedBits;
-        };
-        _proto2.componentWillUnmount = function componentWillUnmount() {
-            if (this.context[contextProp]) this.context[contextProp].off(this.onUpdate);
-        };
-        _proto2.getValue = function getValue() {
-            if (this.context[contextProp]) return this.context[contextProp].get();
-            else return defaultValue;
-        };
-        _proto2.render = function render() {
-            return onlyChild(this.props.children)(this.state.value);
-        };
-        return Consumer;
-    }((0, _reactDefault.default).Component);
-    Consumer.contextTypes = (_Consumer$contextType = {}, _Consumer$contextType[contextProp] = (0, _propTypesDefault.default).object, _Consumer$contextType);
-    return {
-        Provider: Provider,
-        Consumer: Consumer
-    };
-}
-// MIT License
-var createContext = (0, _reactDefault.default).createContext || createReactContext;
 // TODO: Replace with React.createContext once we can assume React 16+
 var createNamedContext = function createNamedContext(name) {
-    var context = createContext();
+    var context = (0, _miniCreateReactContextDefault.default)();
     context.displayName = name;
     return context;
 };
@@ -36194,22 +35732,16 @@ var context = /*#__PURE__*/ createNamedContext("Router");
         _this._isMounted = false;
         _this._pendingLocation = null;
         if (!props.staticContext) _this.unlisten = props.history.listen(function(location) {
-            _this._pendingLocation = location;
+            if (_this._isMounted) _this.setState({
+                location: location
+            });
+            else _this._pendingLocation = location;
         });
         return _this;
     }
     var _proto = Router.prototype;
     _proto.componentDidMount = function componentDidMount() {
-        var _this2 = this;
         this._isMounted = true;
-        if (this.unlisten) // Any pre-mount location changes have been captured at
-        // this point, so unregister the listener.
-        this.unlisten();
-        if (!this.props.staticContext) this.unlisten = this.props.history.listen(function(location) {
-            if (_this2._isMounted) _this2.setState({
-                location: location
-            });
-        });
         if (this._pendingLocation) this.setState({
             location: this._pendingLocation
         });
@@ -36694,23 +36226,23 @@ function useRouteMatch(path) {
     return path ? matchPath(location.pathname, path) : match;
 }
 if (typeof window !== "undefined") {
-    var global$1 = window;
+    var global = window;
     var key = "__react_router_build__";
     var buildNames = {
         cjs: "CommonJS",
         esm: "ES modules",
         umd: "UMD"
     };
-    if (global$1[key] && global$1[key] !== "esm") {
-        var initialBuildName = buildNames[global$1[key]];
+    if (global[key] && global[key] !== "esm") {
+        var initialBuildName = buildNames[global[key]];
         var secondaryBuildName = buildNames["esm"]; // TODO: Add link to article that explains in detail how to avoid
         // loading 2 different builds.
         throw new Error("You are loading the " + secondaryBuildName + " build of React Router " + ("on a page that is already running the " + initialBuildName + " ") + "build, so things won't work right.");
     }
-    global$1[key] = "esm";
+    global[key] = "esm";
 }
 
-},{"@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","react":"21dqq","prop-types":"7wKI2","history":"6yWeD","tiny-warning":"82vrW","tiny-invariant":"fnIPv","@babel/runtime/helpers/esm/extends":"fTBFS","path-to-regexp":"6q3tZ","react-is":"7EuwB","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","hoist-non-react-statics":"1GfsB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6yWeD":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","react":"21dqq","prop-types":"7wKI2","history":"6yWeD","tiny-warning":"82vrW","mini-create-react-context":"azpWE","tiny-invariant":"fnIPv","@babel/runtime/helpers/esm/extends":"fTBFS","path-to-regexp":"6q3tZ","react-is":"7EuwB","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","hoist-non-react-statics":"1GfsB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6yWeD":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createBrowserHistory", ()=>createBrowserHistory);
@@ -37534,8 +37066,138 @@ function invariant(condition, message) {
     throw new Error(value);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6q3tZ":[function(require,module,exports) {
-var isarray = require("a7230451f02214fd");
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"azpWE":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _inheritsLoose = require("@babel/runtime/helpers/esm/inheritsLoose");
+var _inheritsLooseDefault = parcelHelpers.interopDefault(_inheritsLoose);
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
+var _tinyWarning = require("tiny-warning");
+var _tinyWarningDefault = parcelHelpers.interopDefault(_tinyWarning);
+var global = arguments[3];
+var MAX_SIGNED_31_BIT_INT = 1073741823;
+var commonjsGlobal = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : {};
+function getUniqueId() {
+    var key = "__global_unique_id__";
+    return commonjsGlobal[key] = (commonjsGlobal[key] || 0) + 1;
+}
+function objectIs(x, y) {
+    if (x === y) return x !== 0 || 1 / x === 1 / y;
+    else return x !== x && y !== y;
+}
+function createEventEmitter(value) {
+    var handlers = [];
+    return {
+        on: function on(handler) {
+            handlers.push(handler);
+        },
+        off: function off(handler) {
+            handlers = handlers.filter(function(h) {
+                return h !== handler;
+            });
+        },
+        get: function get() {
+            return value;
+        },
+        set: function set(newValue, changedBits) {
+            value = newValue;
+            handlers.forEach(function(handler) {
+                return handler(value, changedBits);
+            });
+        }
+    };
+}
+function onlyChild(children) {
+    return Array.isArray(children) ? children[0] : children;
+}
+function createReactContext(defaultValue, calculateChangedBits) {
+    var _Provider$childContex, _Consumer$contextType;
+    var contextProp = "__create-react-context-" + getUniqueId() + "__";
+    var Provider = /*#__PURE__*/ function(_Component) {
+        (0, _inheritsLooseDefault.default)(Provider, _Component);
+        function Provider() {
+            var _this;
+            _this = _Component.apply(this, arguments) || this;
+            _this.emitter = createEventEmitter(_this.props.value);
+            return _this;
+        }
+        var _proto = Provider.prototype;
+        _proto.getChildContext = function getChildContext() {
+            var _ref;
+            return _ref = {}, _ref[contextProp] = this.emitter, _ref;
+        };
+        _proto.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+            if (this.props.value !== nextProps.value) {
+                var oldValue = this.props.value;
+                var newValue = nextProps.value;
+                var changedBits;
+                if (objectIs(oldValue, newValue)) changedBits = 0;
+                else {
+                    changedBits = typeof calculateChangedBits === "function" ? calculateChangedBits(oldValue, newValue) : MAX_SIGNED_31_BIT_INT;
+                    (0, _tinyWarningDefault.default)((changedBits & MAX_SIGNED_31_BIT_INT) === changedBits, "calculateChangedBits: Expected the return value to be a 31-bit integer. Instead received: " + changedBits);
+                    changedBits |= 0;
+                    if (changedBits !== 0) this.emitter.set(nextProps.value, changedBits);
+                }
+            }
+        };
+        _proto.render = function render() {
+            return this.props.children;
+        };
+        return Provider;
+    }((0, _react.Component));
+    Provider.childContextTypes = (_Provider$childContex = {}, _Provider$childContex[contextProp] = (0, _propTypesDefault.default).object.isRequired, _Provider$childContex);
+    var Consumer = /*#__PURE__*/ function(_Component2) {
+        (0, _inheritsLooseDefault.default)(Consumer, _Component2);
+        function Consumer() {
+            var _this2;
+            _this2 = _Component2.apply(this, arguments) || this;
+            _this2.state = {
+                value: _this2.getValue()
+            };
+            _this2.onUpdate = function(newValue, changedBits) {
+                var observedBits = _this2.observedBits | 0;
+                if ((observedBits & changedBits) !== 0) _this2.setState({
+                    value: _this2.getValue()
+                });
+            };
+            return _this2;
+        }
+        var _proto2 = Consumer.prototype;
+        _proto2.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+            var observedBits = nextProps.observedBits;
+            this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT : observedBits;
+        };
+        _proto2.componentDidMount = function componentDidMount() {
+            if (this.context[contextProp]) this.context[contextProp].on(this.onUpdate);
+            var observedBits = this.props.observedBits;
+            this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT : observedBits;
+        };
+        _proto2.componentWillUnmount = function componentWillUnmount() {
+            if (this.context[contextProp]) this.context[contextProp].off(this.onUpdate);
+        };
+        _proto2.getValue = function getValue() {
+            if (this.context[contextProp]) return this.context[contextProp].get();
+            else return defaultValue;
+        };
+        _proto2.render = function render() {
+            return onlyChild(this.props.children)(this.state.value);
+        };
+        return Consumer;
+    }((0, _react.Component));
+    Consumer.contextTypes = (_Consumer$contextType = {}, _Consumer$contextType[contextProp] = (0, _propTypesDefault.default).object, _Consumer$contextType);
+    return {
+        Provider: Provider,
+        Consumer: Consumer
+    };
+}
+var index = (0, _reactDefault.default).createContext || createReactContext;
+exports.default = index;
+
+},{"react":"21dqq","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","prop-types":"7wKI2","tiny-warning":"82vrW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6q3tZ":[function(require,module,exports) {
+var isarray = require("ec966d8d24a56618");
 /**
  * Expose `pathToRegexp`.
  */ module.exports = pathToRegexp;
@@ -37838,14 +37500,14 @@ module.exports.tokensToRegExp = tokensToRegExp;
     return stringToRegexp(/** @type {string} */ path, /** @type {!Array} */ keys, options);
 }
 
-},{"a7230451f02214fd":"hk7XJ"}],"hk7XJ":[function(require,module,exports) {
+},{"ec966d8d24a56618":"hk7XJ"}],"hk7XJ":[function(require,module,exports) {
 module.exports = Array.isArray || function(arr) {
     return Object.prototype.toString.call(arr) == "[object Array]";
 };
 
 },{}],"1GfsB":[function(require,module,exports) {
 "use strict";
-var reactIs = require("734fa2084f7ca091");
+var reactIs = require("a8e9d282a6079209");
 /**
  * Copyright 2015, Yahoo! Inc.
  * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
@@ -37927,7 +37589,7 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 }
 module.exports = hoistNonReactStatics;
 
-},{"734fa2084f7ca091":"7EuwB"}],"eBaMl":[function() {},{}],"lIU5g":[function(require,module,exports) {
+},{"a8e9d282a6079209":"7EuwB"}],"eBaMl":[function() {},{}],"lIU5g":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$1e24 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -38080,7 +37742,7 @@ $RefreshReg$(_c, "Menubar");
 }
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"cHIiW","./menubar.scss":"I5ugC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"I5ugC":[function() {},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
-var Refresh = require("88cf6f2918e4481c");
+var Refresh = require("671d3a1b313ff113");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -38211,7 +37873,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"88cf6f2918e4481c":"786KC"}],"3U8r7":[function(require,module,exports) {
+},{"671d3a1b313ff113":"786KC"}],"3U8r7":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$789c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
