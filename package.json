@@ -22,7 +22,7 @@
     "@parcel/resolver-default": "^2.8.3",
     "axios": "^1.1.2",
     "npm-check-updates": "^16.3.16",
-    "parcel": "^2.8.0",
+    "parcel": "^2.7.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-bootstrap": "^2.5.0",
@@ -33,8 +33,8 @@
     "process": false
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.0",
+    "@parcel/transformer-sass": "2.7.0",
     "buffer": "^6.0.3",
-    "parcel": "^2.8.0"
+    "parcel": "^2.7.0"
   }
 }
