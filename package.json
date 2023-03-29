@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/BJaguar71/myFlix-client/issues"
   },
-  "homepage": "https://bjaguar71.github.io/myFlix-client/",
+  "homepage": "https://bjaguar71.github.io/myFlix-client/index.html",
   "dependencies": {
     "@parcel/resolver-default": "^2.8.3",
     "axios": "^1.1.2",
