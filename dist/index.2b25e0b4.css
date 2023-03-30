@@ -1,0 +1,79 @@
+.page-header {
+  height: 100px;
+  width: 100%;
+  background-color: #f5a9b86e;
+  flex-direction: row;
+  display: flex;
+  position: fixed;
+}
+
+.btn-outline-danger {
+  margin-left: 20px;
+}
+
+a {
+  margin: 5px;
+}
+
+
+
+
+
+.movie-button {
+  color: #f5a9b86e;
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .col-md-3 {
+    grid: 1fr 1fr 1fr;
+    width: auto;
+    margin: 10px;
+  }
+
+  div.card-title.h5, p.card-text {
+    font-size: small;
+  }
+
+  div.card-body {
+    height: 150px;
+  }
+}
+
+div.card-title.h5, p.card-text, button.movie-button.btn.btn-link {
+  font-size: small;
+}
+
+@media (min-width: 769px) {
+  div.card-title.h5, p.card-text {
+    font-size: small;
+  }
+
+  div.card-body {
+    height: 180px;
+  }
+
+  .card {
+    margin: 4px;
+  }
+}
+
+img.movie-poster {
+  width: 432px;
+  height: 600px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  div img.movie-poster {
+    width: 216px;
+    height: 340px;
+  }
+}
+
+
+
+.app-container {
+  width: auto;
+  background: #fff;
+}
+
+/*# sourceMappingURL=index.2b25e0b4.css.map */
